@@ -29,27 +29,27 @@ class App extends Component {
               </div>
             </div>
             <Switch>
-              <Route path='/proj1' component={() => <Project link="proj1"/>} />
-              <Route path='/huevember' component={() => <Project link="huevember"/>} />
-              <Route path='/genbook' component={() => <Project link="genbook"/>} />
-              <Route path='/comic' component={() => <Project link="comic"/>} />
-              <Route path='/mocap' component={() => <Project link="mocap"/>} />
-              <Route path='/tidal' component={() => <Project link="tidal"/>} />
-              <Route path='/misc' component={() => <Project link="misc"/>} />
-              <Route path='/fanart' component={() => <Project link="fanart"/>} />
-              <Route path='/stickers' component={() => <Project link="stickers"/>} />
-              <Route path='/blender' component={() => <Project link="blender"/>} />
-              <Route path='/processing' component={() => <Project link="processing"/>} />
-              <Route path='/shelves' component={() => <Project link="shelves"/>} />
-              <Route path='/bot' component={() => <Project link="bot"/>} />
-              <Route path='/snowgum' component={() => <Project link="snowgum"/>} />
-              <Route path='/sort' component={() => <Project link="sort"/>} />
-              <Route path='/AP' component={() => <Project link="AP"/>} />
-              <Route path='/rpg' component={() => <Project link="rpg"/>} />
-              <Route path='/toonboom' component={() => <Project link="toonboom"/>} />
-              <Route path='/webdev' component={() => <Project link="webdev"/>} />
-              <Route path='/hackathon' component={() => <Project link="hackathon"/>} />
-              <Route path='/' component={() => <Gallery current={this.state.current}/>} />
+              <Route path={process.env.PUBLIC_URL + '/proj1'} component={() => <Project link="proj1"/>} />
+              <Route path={process.env.PUBLIC_URL + '/huevember'} component={() => <Project link="huevember"/>} />
+              <Route path={process.env.PUBLIC_URL + '/genbook'} component={() => <Project link="genbook"/>} />
+              <Route path={process.env.PUBLIC_URL + '/comic'} component={() => <Project link="comic"/>} />
+              <Route path={process.env.PUBLIC_URL + '/mocap'} component={() => <Project link="mocap"/>} />
+              <Route path={process.env.PUBLIC_URL + '/tidal'} component={() => <Project link="tidal"/>} />
+              <Route path={process.env.PUBLIC_URL + '/misc'} component={() => <Project link="misc"/>} />
+              <Route path={process.env.PUBLIC_URL + '/fanart'} component={() => <Project link="fanart"/>} />
+              <Route path={process.env.PUBLIC_URL + '/stickers'} component={() => <Project link="stickers"/>} />
+              <Route path={process.env.PUBLIC_URL + '/blender'} component={() => <Project link="blender"/>} />
+              <Route path={process.env.PUBLIC_URL + '/processing'} component={() => <Project link="processing"/>} />
+              <Route path={process.env.PUBLIC_URL + '/shelves'} component={() => <Project link="shelves"/>} />
+              <Route path={process.env.PUBLIC_URL + '/bot'} component={() => <Project link="bot"/>} />
+              <Route path={process.env.PUBLIC_URL + '/snowgum'} component={() => <Project link="snowgum"/>} />
+              <Route path={process.env.PUBLIC_URL + '/sort'} component={() => <Project link="sort"/>} />
+              <Route path={process.env.PUBLIC_URL + '/AP'} component={() => <Project link="AP"/>} />
+              <Route path={process.env.PUBLIC_URL + '/rpg'} component={() => <Project link="rpg"/>} />
+              <Route path={process.env.PUBLIC_URL + '/toonboom'} component={() => <Project link="toonboom"/>} />
+              <Route path={process.env.PUBLIC_URL + '/webdev'} component={() => <Project link="webdev"/>} />
+              <Route path={process.env.PUBLIC_URL + '/hackathon'} component={() => <Project link="hackathon"/>} />
+              <Route path={process.env.PUBLIC_URL + '/'} component={() => <Gallery current={this.state.current}/>} />
             </Switch>
         </div>
     );
