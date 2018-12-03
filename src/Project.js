@@ -50,17 +50,21 @@ class Project extends Component {
       case "mocap": 
         return (
           <div className="Project">
+            <h>Motion Capture</h>
+
             <ModalImage className="smallImg" small={require("./images/60212/randomloops.gif")} large={require("./images/60212/randomloops.gif")} hideDownload="true" hideZoom="true"/>
             <ModalImage className="smallImg" small={require("./images/60212/shortwalk.gif")} large={require("./images/60212/shortwalk.gif")} hideDownload="true" hideZoom="true"/>
             <ModalImage className="smallImg" small={require("./images/60212/class_labels.png")} large={require("./images/60212/class_labels.png")} hideDownload="true" hideZoom="true"/>
             <br></br>
-            This was a project for 60-212. You can read about my process <a href="http://cmuems.com/2018/60212f/lass/10/12/lass-body/">here</a>!
+            This was a project for 60-212. You can read about my process <a href="http://cmuems.com/2018/60212f/lass/10/12/lass-body/">here</a>, and play with the online version <a href="https://lassyla.me/People/">here</a>!
 
           </div>
         );
       case "tidal": 
         return (
           <div className="Project">
+            <h>Tidal Clock</h>
+
             <ModalImage className="smallImg" small={require("./images/60212/clock2.gif")} large={require("./images/60212/clock2.gif")} hideDownload="true" hideZoom="true"/>
             <ModalImage className="smallImg" small={require("./images/60212/clock1.png")} large={require("./images/60212/clock1.png")} hideDownload="true" hideZoom="true"/>
             <ModalImage className="smallImg" small={require("./images/60212/clock3.gif")} large={require("./images/60212/clock3.gif")} hideDownload="true" hideZoom="true"/>
@@ -71,6 +75,8 @@ class Project extends Component {
       case "misc": 
         return (
           <div className="Project">
+            <h>Misc. original art</h>
+
             <ModalImage className="smallImg" small={require("./images/misc/jell.gif")} large={require("./images/misc/jell.gif")} hideDownload="true" hideZoom="true"/>
             <ModalImage className="smallImg" small={require("./images/misc/camping3.png")} large={require("./images/misc/camping3.png")} hideDownload="true" hideZoom="true"/>
             <ModalImage className="smallImg" small={require("./images/misc/cloud.png")} large={require("./images/misc/cloud.png")} hideDownload="true" hideZoom="true"/>
@@ -117,6 +123,7 @@ class Project extends Component {
       case "shelves": 
         return (
           <div className="Project">
+            <h>Shelves</h>
             A project for Concept Studio. You can experience it <a href="https://lassyla.me/Shelves/index.html">here</a>. Learned three.js and blender!  <br></br>
 
             <ModalImage small={require("./images/shelves/1.png")} large={require("./images/shelves/1.png")} hideDownload="true" hideZoom="true"/>
@@ -127,6 +134,8 @@ class Project extends Component {
       case "bot": 
         return (
           <div className="Project">
+          <h>Bot-a-Razzi</h>
+
           Final project for Concept Studio, created with Rain Du, Connie Ye, and Lexin Yuan. 
           It is an AR experience where the user is being swarmed by camera robots, and outsiders can view their lives being broadcasted on social media. 
           We used blender, makehuman, and a-frame.
