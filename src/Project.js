@@ -299,9 +299,10 @@ class Project extends Component {
         return (
           <div className="Project"><br></br> 
           <div id="frontpage">
-            <ModalImage className="smallImg" small={require("./images/painter/flowers2.gif")} large={require("./images/painter/flowers2.gif")} hideDownload="true" hideZoom="true"/>
+          <iframe width="900" height="500" src="https://www.youtube.com/embed/YiEgutYiNzA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <br></br><ModalImage className="smallImg" small={require("./images/painter/flowers2.gif")} large={require("./images/painter/flowers2.gif")} hideDownload="true" hideZoom="true"/>
             <ModalImage className="medImg" small={require("./images/3d/anna2.png")} large={require("./images/3d/anna2.png")} hideDownload="true" hideZoom="true"/> 
-           <ModalImage className="medImg" small={require("./images/3d/bun.png")} large={require("./images/3d/bun.png")} hideDownload="true" hideZoom="true"/>
+            <ModalImage className="medImg" small={require("./images/3d/bun.png")} large={require("./images/3d/bun.png")} hideDownload="true" hideZoom="true"/>
             <ModalImage className="smallImg" small={require("./images/huevember/orange.png")} large={require("./images/huevember/orange.png")} hideDownload="true" hideZoom="true"/>
             <ModalImage className="smallImg" small={require("./images/huevember/green.png")} large={require("./images/huevember/green.png")} hideDownload="true" hideZoom="true"/>
             <ModalImage className="smallImg" small={require("./images/60212/shortwalk.gif")} large={require("./images/60212/shortwalk.gif")} hideDownload="true" hideZoom="true"/>

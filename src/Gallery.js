@@ -16,12 +16,7 @@ class Gallery extends Component {
     };
   }
   render() {
-    if(this.props.current == "home") {
-      return(<Project link="home"/>);
-    }
-    if(this.props.current == "about") {
-      return(<Project link="about"/>);
-    }
+
     return (
         
         <div className="Gallery">

@@ -103,10 +103,11 @@ h{
 }
 .button:hover{
     cursor:pointer;
+    text-decoration: underline;
 }
 
 .active {
-    text-decoration: underline; 
+    /* text-decoration: underline;  */
 }
 
 .smallImg{
