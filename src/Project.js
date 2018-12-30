@@ -24,6 +24,7 @@ class Project extends Component {
             Some progress shots: <br></br>
             <ModalImage className="smallImg" small={require("./images/huevember/greenwip.png")} large={require("./images/huevember/greenwip.png")} hideDownload="true" hideZoom="true"/>            
             <ModalImage className="smallImg" small={require("./images/huevember/orange_render.png")} large={require("./images/huevember/orange_render.png")} hideDownload="true" hideZoom="true"/>            
+            <ModalImage className="smallImg" small={require("./images/huevember/bluewip.png")} large={require("./images/huevember/bluewip.png")} hideDownload="true" hideZoom="true"/>            
 
             <br></br>
           </div>
@@ -90,28 +91,28 @@ class Project extends Component {
         return (
           <div className="Project">
             <h>Original Paintings</h>
-            <div id="col">
+            <div className="col">
               <ModalImage className="smallImg" small={require("./images/misc/jell.gif")} large={require("./images/misc/jell.gif")} hideDownload="true" hideZoom="true"/>
               <ModalImage className="smallImg" small={require("./images/misc/camping1.png")} large={require("./images/misc/camping1.png")} hideDownload="true" hideZoom="true"/>
               <ModalImage className="smallImg" small={require("./images/misc/camping2.png")} large={require("./images/misc/camping2.png")} hideDownload="true" hideZoom="true"/>
               <ModalImage className="smallImg" small={require("./images/misc/artfriends.png")} large={require("./images/misc/artfriends.png")} hideDownload="true" hideZoom="true"/>
               <ModalImage className="smallImg" small={require("./images/misc/idk.jpg")} large={require("./images/misc/idk.jpg")} hideDownload="true" hideZoom="true"/>
             </div>
-            <div id="col">
-            <ModalImage className="smallImg" small={require("./images/misc/camping3.png")} large={require("./images/misc/camping3.png")} hideDownload="true" hideZoom="true"/>
-            <ModalImage className="smallImg" small={require("./images/misc/cloud.png")} large={require("./images/misc/cloud.png")} hideDownload="true" hideZoom="true"/>
-            <ModalImage className="smallImg" small={require("./images/misc/garden.png")} large={require("./images/misc/garden.png")} hideDownload="true" hideZoom="true"/>
-            <ModalImage className="smallImg" small={require("./images/misc/phipps.png")} large={require("./images/misc/phipps.png")} hideDownload="true" hideZoom="true"/>
-            <ModalImage className="smallImg" small={require("./images/misc/catalyst.jpg")} large={require("./images/misc/catalyst.jpg")} hideDownload="true" hideZoom="true"/>
-            <ModalImage className="smallImg" small={require("./images/misc/airhead.jpg")} large={require("./images/misc/airhead.jpg")} hideDownload="true" hideZoom="true"/>
+            <div className="col">
+              <ModalImage className="smallImg" small={require("./images/misc/goodbye room.png")} large={require("./images/misc/goodbye room.png")} hideDownload="true" hideZoom="true"/>
+              <ModalImage className="smallImg" small={require("./images/misc/camping3.png")} large={require("./images/misc/camping3.png")} hideDownload="true" hideZoom="true"/>
+              <ModalImage className="smallImg" small={require("./images/misc/cloud.png")} large={require("./images/misc/cloud.png")} hideDownload="true" hideZoom="true"/>
+              <ModalImage className="smallImg" small={require("./images/misc/garden.png")} large={require("./images/misc/garden.png")} hideDownload="true" hideZoom="true"/>
+              <ModalImage className="smallImg" small={require("./images/misc/phipps.png")} large={require("./images/misc/phipps.png")} hideDownload="true" hideZoom="true"/>
+              <ModalImage className="smallImg" small={require("./images/misc/catalyst.jpg")} large={require("./images/misc/catalyst.jpg")} hideDownload="true" hideZoom="true"/>
+              <ModalImage className="smallImg" small={require("./images/misc/airhead.jpg")} large={require("./images/misc/airhead.jpg")} hideDownload="true" hideZoom="true"/>
             </div>
-            <div id="col">
-
-            <ModalImage className="smallImg" small={require("./images/misc/frogpond.png")} large={require("./images/misc/frogpond.png")} hideDownload="true" hideZoom="true"/>
-            <ModalImage className="smallImg" small={require("./images/misc/box.png")} large={require("./images/misc/box.png")} hideDownload="true" hideZoom="true"/>
-            <ModalImage className="smallImg" small={require("./images/misc/forest_monster.png")} large={require("./images/misc/forest_monster.png")} hideDownload="true" hideZoom="true"/>
-            <ModalImage className="smallImg" small={require("./images/misc/flamingo.jpg")} large={require("./images/misc/flamingo.jpg")} hideDownload="true" hideZoom="true"/>
-            <ModalImage className="smallImg" small={require("./images/misc/artie.png")} large={require("./images/misc/artie.png")} hideDownload="true" hideZoom="true"/>
+            <div className="col">
+              <ModalImage className="smallImg" small={require("./images/misc/frogpond.png")} large={require("./images/misc/frogpond.png")} hideDownload="true" hideZoom="true"/>
+              <ModalImage className="smallImg" small={require("./images/misc/box.png")} large={require("./images/misc/box.png")} hideDownload="true" hideZoom="true"/>
+              <ModalImage className="smallImg" small={require("./images/misc/forest_monster.png")} large={require("./images/misc/forest_monster.png")} hideDownload="true" hideZoom="true"/>
+              <ModalImage className="smallImg" small={require("./images/misc/flamingo.jpg")} large={require("./images/misc/flamingo.jpg")} hideDownload="true" hideZoom="true"/>
+              <ModalImage className="smallImg" small={require("./images/misc/artie.png")} large={require("./images/misc/artie.png")} hideDownload="true" hideZoom="true"/>
             </div>
 
           </div>
@@ -120,17 +121,17 @@ class Project extends Component {
         return (
           <div className="Project">
             <h>Fan art</h>
-            <div id="col">
-            <ModalImage className="smallImg" small={require("./images/fanart/spirited away2.png")} large={require("./images/fanart/spirited away2.png")} hideDownload="true" hideZoom="true"/>
-            <ModalImage className="smallImg" small={require("./images/fanart/kiki2.png")} large={require("./images/fanart/kiki2.png")} hideDownload="true" hideZoom="true"/>
+            <div className="col">
+              <ModalImage className="smallImg" small={require("./images/fanart/spirited away2.png")} large={require("./images/fanart/spirited away2.png")} hideDownload="true" hideZoom="true"/>
+              <ModalImage className="smallImg" small={require("./images/fanart/kiki2.png")} large={require("./images/fanart/kiki2.png")} hideDownload="true" hideZoom="true"/>
             </div>
-            <div id="col">
-            <ModalImage className="smallImg" small={require("./images/fanart/azura3.png")} large={require("./images/fanart/azura3.png")} hideDownload="true" hideZoom="true"/>
-            <ModalImage className="smallImg" small={require("./images/fanart/corrin2.png")} large={require("./images/fanart/corrin2.png")} hideDownload="true" hideZoom="true"/>
+            <div className="col">
+              <ModalImage className="smallImg" small={require("./images/fanart/azura3.png")} large={require("./images/fanart/azura3.png")} hideDownload="true" hideZoom="true"/>
+              <ModalImage className="smallImg" small={require("./images/fanart/corrin2.png")} large={require("./images/fanart/corrin2.png")} hideDownload="true" hideZoom="true"/>
             </div>
-            <div id="col">
-            <ModalImage className="smallImg" small={require("./images/fanart/howls2.png")} large={require("./images/fanart/howls2.png")} hideDownload="true" hideZoom="true"/>
-            <ModalImage className="smallImg" small={require("./images/fanart/undertale.png")} large={require("./images/fanart/undertale.png")} hideDownload="true" hideZoom="true"/>
+            <div className="col">
+              <ModalImage className="smallImg" small={require("./images/fanart/howls2.png")} large={require("./images/fanart/howls2.png")} hideDownload="true" hideZoom="true"/>
+              <ModalImage className="smallImg" small={require("./images/fanart/undertale.png")} large={require("./images/fanart/undertale.png")} hideDownload="true" hideZoom="true"/>
             </div>
           </div>
         );
@@ -139,30 +140,29 @@ class Project extends Component {
           <div className="Project">
             <h>Stickers</h>
             I love making stickers to give to my friends! If you want a sticker, just ask :) <br></br> <br></br> <br></br>
-            <div id="col">
-            <ModalImage className="smallImg" small={require("./images/stickers/teentitans.png")} large={require("./images/stickers/teentitans.png")} hideDownload="true" hideZoom="true"/>
-            <ModalImage className="smallImg" small={require("./images/stickers/egg4.png")} large={require("./images/stickers/egg4.png")} hideDownload="true" hideZoom="true"/>
-            <ModalImage className="smallImg" small={require("./images/stickers/garbo.png")} large={require("./images/stickers/garbo.png")} hideDownload="true" hideZoom="true"/>
-            <ModalImage className="smallImg" small={require("./images/stickers/dessert square.png")} large={require("./images/stickers/dessert square.png")} hideDownload="true" hideZoom="true"/>
-            <ModalImage className="smallImg" small={require("./images/stickers/egg2.png")} large={require("./images/stickers/egg2.png")} hideDownload="true" hideZoom="true"/>
-            <ModalImage className="smallImg" small={require("./images/stickers/robutsflat.png")} large={require("./images/stickers/robutsflat.png")} hideDownload="true" hideZoom="true"/>
+            <div className="col">
+              <ModalImage className="smallImg" small={require("./images/stickers/teentitans.png")} large={require("./images/stickers/teentitans.png")} hideDownload="true" hideZoom="true"/>
+              <ModalImage className="smallImg" small={require("./images/stickers/egg4.png")} large={require("./images/stickers/egg4.png")} hideDownload="true" hideZoom="true"/>
+              <ModalImage className="smallImg" small={require("./images/stickers/garbo.png")} large={require("./images/stickers/garbo.png")} hideDownload="true" hideZoom="true"/>
+              <ModalImage className="smallImg" small={require("./images/stickers/dessert square.png")} large={require("./images/stickers/dessert square.png")} hideDownload="true" hideZoom="true"/>
+              <ModalImage className="smallImg" small={require("./images/stickers/egg2.png")} large={require("./images/stickers/egg2.png")} hideDownload="true" hideZoom="true"/>
+              <ModalImage className="smallImg" small={require("./images/stickers/robutsflat.png")} large={require("./images/stickers/robutsflat.png")} hideDownload="true" hideZoom="true"/>
 
             </div>
-            <div id="col">
-            <ModalImage className="smallImg" small={require("./images/stickers/microfell.png")} large={require("./images/stickers/microfell.png")} hideDownload="true" hideZoom="true"/>
-            <ModalImage className="smallImg" small={require("./images/stickers/egg6.png")} large={require("./images/stickers/egg6.png")} hideDownload="true" hideZoom="true"/>
-            <ModalImage className="smallImg" small={require("./images/stickers/trashbot.png")} large={require("./images/stickers/trashbot.png")} hideDownload="true" hideZoom="true"/>
-            <ModalImage className="smallImg" small={require("./images/stickers/final_stickers_white.png")} large={require("./images/stickers/final_stickers_white.png")} hideDownload="true" hideZoom="true"/>
-            <ModalImage className="smallImg" small={require("./images/stickers/egg3.png")} large={require("./images/stickers/egg3.png")} hideDownload="true" hideZoom="true"/>
+            <div className="col">
+              <ModalImage className="smallImg" small={require("./images/stickers/microfell.png")} large={require("./images/stickers/microfell.png")} hideDownload="true" hideZoom="true"/>
+              <ModalImage className="smallImg" small={require("./images/stickers/egg6.png")} large={require("./images/stickers/egg6.png")} hideDownload="true" hideZoom="true"/>
+              <ModalImage className="smallImg" small={require("./images/stickers/trashbot.png")} large={require("./images/stickers/trashbot.png")} hideDownload="true" hideZoom="true"/>
+              <ModalImage className="smallImg" small={require("./images/stickers/final_stickers_white.png")} large={require("./images/stickers/final_stickers_white.png")} hideDownload="true" hideZoom="true"/>
+              <ModalImage className="smallImg" small={require("./images/stickers/egg3.png")} large={require("./images/stickers/egg3.png")} hideDownload="true" hideZoom="true"/>
 
             </div>
-            <div id="col">
-            <ModalImage className="smallImg" small={require("./images/stickers/egg5.png")} large={require("./images/stickers/egg5.png")} hideDownload="true" hideZoom="true"/>
-            <ModalImage className="smallImg" small={require("./images/stickers/frog.png")} large={require("./images/stickers/frog.png")} hideDownload="true" hideZoom="true"/>
-            <ModalImage className="smallImg" small={require("./images/stickers/breakfast stickers.png")} large={require("./images/stickers/breakfast stickers.png")} hideDownload="true" hideZoom="true"/>
-            <ModalImage className="smallImg" small={require("./images/stickers/egg1.png")} large={require("./images/stickers/egg1.png")}  hideDownload="true" hideZoom="true"/>
-            <ModalImage className="smallImg" small={require("./images/stickers/fried_egg.png")} large={require("./images/stickers/fried_egg.png")} hideDownload="true" hideZoom="true"/>
-
+            <div className="col">
+              <ModalImage className="smallImg" small={require("./images/stickers/egg5.png")} large={require("./images/stickers/egg5.png")} hideDownload="true" hideZoom="true"/>
+              <ModalImage className="smallImg" small={require("./images/stickers/frog.png")} large={require("./images/stickers/frog.png")} hideDownload="true" hideZoom="true"/>
+              <ModalImage className="smallImg" small={require("./images/stickers/breakfast stickers.png")} large={require("./images/stickers/breakfast stickers.png")} hideDownload="true" hideZoom="true"/>
+              <ModalImage className="smallImg" small={require("./images/stickers/egg1.png")} large={require("./images/stickers/egg1.png")}  hideDownload="true" hideZoom="true"/>
+              <ModalImage className="smallImg" small={require("./images/stickers/fried_egg.png")} large={require("./images/stickers/fried_egg.png")} hideDownload="true" hideZoom="true"/>
             </div>
           </div>
         );
@@ -242,13 +242,13 @@ class Project extends Component {
         return (
           <div className="Project">
           <h>2D Animation</h>
-          <br></br> These are some of my attempts at 2D animation! They are done in Toon Boom Studio. They are all from 2017 and earlier. 
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/8kb6DQRK9o0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/-N6Re6cZ17o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/jQoMUqmzaWs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/JA13OpkzECE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/RwoboZ_4BuQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/AUd70Vv_uIQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <br></br> These are some of my attempts at 2D animation! They are done in Toon Boom Studio. They are all from 2017 and earlier. <br></br>
+          <iframe width="500" height="315" src="https://www.youtube.com/embed/8kb6DQRK9o0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="500" height="315" src="https://www.youtube.com/embed/-N6Re6cZ17o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="500" height="315" src="https://www.youtube.com/embed/jQoMUqmzaWs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="500" height="315" src="https://www.youtube.com/embed/JA13OpkzECE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="500" height="315" src="https://www.youtube.com/embed/RwoboZ_4BuQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="500" height="315" src="https://www.youtube.com/embed/AUd70Vv_uIQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         );
 
@@ -258,22 +258,19 @@ class Project extends Component {
             <h>3D models</h>
             3D doodles made with Maya, Substance Painter, and Blender.
             <br></br>
-            <div id="col">
-            <ModalImage className="smallImg" small={require("./images/3d/anna2.png")} large={require("./images/3d/anna2.png")} hideDownload="true" hideZoom="true"/>
-            <ModalImage className="smallImg" small={require("./images/3d/bun.png")} large={require("./images/3d/bun.png")} hideDownload="true" hideZoom="true"/>
-            <ModalImage className="smallImg" small={require("./images/3d/sloog.png")} large={require("./images/3d/sloog.png")} hideDownload="true" hideZoom="true"/>
-
+            <div className="col">
+              <ModalImage className="smallImg" small={require("./images/3d/anna2.png")} large={require("./images/3d/anna2.png")} hideDownload="true" hideZoom="true"/>
+              <ModalImage className="smallImg" small={require("./images/3d/bun.png")} large={require("./images/3d/bun.png")} hideDownload="true" hideZoom="true"/>
+              <ModalImage className="smallImg" small={require("./images/3d/sloog.png")} large={require("./images/3d/sloog.png")} hideDownload="true" hideZoom="true"/>
             </div>
-            <div id="col">
-            <ModalImage className="smallImg" small={require("./images/3d/angie.gif")} large={require("./images/3d/angie.gif")} hideDownload="true" hideZoom="true"/>
-            <ModalImage className="smallImg" small={require("./images/3d/sleepy.gif")} large={require("./images/3d/sleepy.gif")} hideDownload="true" hideZoom="true"/>
-            <ModalImage className="smallImg" small={require("./images/3d/teknos.jpg")} large={require("./images/3d/teknos.jpg")} hideDownload="true" hideZoom="true"/>
-
+            <div className="col">
+              <ModalImage className="smallImg" small={require("./images/3d/angie.gif")} large={require("./images/3d/angie.gif")} hideDownload="true" hideZoom="true"/>
+              <ModalImage className="smallImg" small={require("./images/3d/sleepy.gif")} large={require("./images/3d/sleepy.gif")} hideDownload="true" hideZoom="true"/>
+              <ModalImage className="smallImg" small={require("./images/3d/teknos.jpg")} large={require("./images/3d/teknos.jpg")} hideDownload="true" hideZoom="true"/>
             </div>
-            <div id="col">
-            <ModalImage className="smallImg" small={require("./images/3d/anna.gif")} large={require("./images/3d/anna.gif")} hideDownload="true" hideZoom="true"/>
-            <ModalImage className="smallImg" small={require("./images/3d/ella.gif")} large={require("./images/3d/ella.gif")} hideDownload="true" hideZoom="true"/>
-
+            <div className="col">
+              <ModalImage className="smallImg" small={require("./images/3d/anna.gif")} large={require("./images/3d/anna.gif")} hideDownload="true" hideZoom="true"/>
+              <ModalImage className="smallImg" small={require("./images/3d/ella.gif")} large={require("./images/3d/ella.gif")} hideDownload="true" hideZoom="true"/>
             </div>
 
           </div>
@@ -299,8 +296,16 @@ class Project extends Component {
         );
       case "home": 
         return (
-          <div className="Project">
-            
+          <div className="Project"><br></br> 
+          <div id="frontpage">
+            <ModalImage className="smallImg" small={require("./images/painter/flowers2.gif")} large={require("./images/painter/flowers2.gif")} hideDownload="true" hideZoom="true"/>
+            <ModalImage className="medImg" small={require("./images/3d/anna2.png")} large={require("./images/3d/anna2.png")} hideDownload="true" hideZoom="true"/> 
+           <ModalImage className="medImg" small={require("./images/3d/bun.png")} large={require("./images/3d/bun.png")} hideDownload="true" hideZoom="true"/>
+            <ModalImage className="smallImg" small={require("./images/huevember/orange.png")} large={require("./images/huevember/orange.png")} hideDownload="true" hideZoom="true"/>
+            <ModalImage className="smallImg" small={require("./images/huevember/green.png")} large={require("./images/huevember/green.png")} hideDownload="true" hideZoom="true"/>
+            <ModalImage className="smallImg" small={require("./images/60212/shortwalk.gif")} large={require("./images/60212/shortwalk.gif")} hideDownload="true" hideZoom="true"/>
+            <ModalImage className="smallImg" small={require("./images/60212/clock2.gif")} large={require("./images/60212/clock2.gif")} hideDownload="true" hideZoom="true"/>
+            </div>
           </div>
         );
       case "about": 
@@ -318,6 +323,8 @@ class Project extends Component {
             <br></br><a href="&#x6D;&#x61;&#x69;&#x6C;&#x74;&#x6F;&#x3A;&#x20;&#x61;&#x6C;&#x79;&#x73;&#x73;&#x61;&#x6C;&#x40;&#x61;&#x6E;&#x64;&#x72;&#x65;&#x77;&#x2E;&#x63;&#x6D;&#x75;&#x2E;&#x65;&#x64;&#x75;&#xA;">&#x20;&#x61;&#x6C;&#x79;&#x73;&#x73;&#x61;&#x6C;&#x40;&#x61;&#x6E;&#x64;&#x72;&#x65;&#x77;&#x2E;&#x63;&#x6D;&#x75;&#x2E;&#x65;&#x64;&#x75;&#xA;</a>
             <br></br><a href="https://twitter.com/lassylaa">twitter @lassylaa</a>
             <br></br><a href="https://github.com/lassyla">github @lassyla</a>
+            <br></br><a href="https://www.instagram.com/lassylaa/">instagram @lassylaa</a>
+
             <br></br> <br></br>
             
           </div>

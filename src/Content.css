@@ -20,6 +20,8 @@
 .Project{
     margin-top: 30px; 
     font-size: 20px; 
+    vertical-align: top; 
+
 }
 .Box img {
     width: 300px; 
@@ -121,7 +123,7 @@ a{
     font-weight: bold; 
 }
 
-#col{
+.col{
     max-width: 300px;
     display: inline-block;
     margin: 10px;
@@ -129,4 +131,8 @@ a{
   }
 iframe{
     margin: 10px; 
+}
+#frontpage img{
+    vertical-align: middle; 
+  
 }
