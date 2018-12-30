@@ -103,11 +103,10 @@ h{
 }
 .button:hover{
     cursor:pointer;
-    color:  rgb(240, 220, 220);
 }
 
 .active {
-    color:  rgb(240, 220, 220);
+    text-decoration: underline; 
 }
 
 .smallImg{
@@ -121,6 +120,7 @@ h{
 a{
     text-decoration:none; 
     font-weight: bold; 
+    color: rgb(85, 64, 64);
 }
 
 .col{

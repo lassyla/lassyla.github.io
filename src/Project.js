@@ -60,10 +60,10 @@ class Project extends Component {
 
             <img className="medImg" src={require("./images/60212/randomloops.gif")}/>
             <br></br>
-            This was a project for 60-212. You can read about my process <a href="http://cmuems.com/2018/60212f/lass/10/12/lass-body/">here</a>, and play with the online version <a href="https://lassyla.me/People/">here</a>!
+            You can read about my process <a href="http://cmuems.com/2018/60212f/lass/10/12/lass-body/">here</a>, and play with the online version <a href="https://lassyla.me/People/">here</a>!
             <br></br>
             <br></br>
-            The assignment was to use motion capture data in a creative way. I wrote an application using three.js that takes a string input as a random seed to create a "garbage character". The characters you see here were created with the usernames of my classmates. 
+            This was a project for 60-212. The assignment was to use motion capture data in a creative way. I wrote an application using three.js that takes a string input as a random seed to create a "garbage character". The characters you see here were created with the usernames of my classmates. 
             <br></br><br></br> I used GLSL to create random materials for the characters, like gradients and stripes. 
             <br></br>
             <ModalImage className="smallImg" small={require("./images/60212/shortwalk.gif")} large={require("./images/60212/shortwalk.gif")} hideDownload="true" hideZoom="true"/>
@@ -78,8 +78,8 @@ class Project extends Component {
 
             <img className="medImg" src={require("./images/60212/clock2.gif")} />
             <br></br>
-            This was a project for 60-212. You can view it <a href="https://lassyla.me/clocks/">here</a>, and read about my process <a href="http://cmuems.com/2018/60212f/lass/09/21/lass-clock/">here</a>!
-            <br></br><br></br>It is a clock that completes a cycle every 745 minutes, which marks the difference between a high and low tide. The tidal pool gets revealed at low tide and covered at high tide. I originally set the clock to show the tide of Virginia Beach, though it might need calibration! 
+            You can view it <a href="https://lassyla.me/clocks/">here</a>, and read about my process <a href="http://cmuems.com/2018/60212f/lass/09/21/lass-clock/">here</a>!
+            <br></br><br></br>This was a project for 60-212. It is a clock that completes a cycle every 745 minutes, which marks the difference between a high and low tide. The tidal pool gets revealed at low tide and covered at high tide. I originally set the clock to show the tide of Virginia Beach, though it might need calibration! 
             <br></br>I used Blender to create the beach shore, and three.js/GLSL to program the cycle of the clock, water movement, and sky color. 
             <br></br>
             <br></br>
@@ -287,10 +287,11 @@ class Project extends Component {
         return (
           <div className="Project">
             <h>Planet Painter</h>
-            <img className="medImg" src={require("./images/painter/flowers.gif")}></img> <br></br>
+            <img className="medImg" src={require("./images/painter/flowers.gif")}></img> 
+            <br></br>You can play with it <a href="https://lassyla.me/TravelCube/shader3.html">here</a>, but be warned it is still in-progress! 
+            <br></br><br></br>
             A personal project I am working on, where you paint flowers on a planet with your mouse! It is currently a work in progress. I want to add functionality that lets the user choose the colors, and possibly paint other surfaces (trees, water, rocks, etc.). 
             <br></br>I am using three.js and GLSL to create this project. The flowers are all made procedurally from polar equations. Ever since I learned about rose curves in high school, I've wanted to create an art project with them! <br></br>
-            <br></br>You can play with it <a href="https://lassyla.me/TravelCube/shader3.html">here</a>, but be warned it is still in-progress! 
             <br></br>
           </div>
         );
