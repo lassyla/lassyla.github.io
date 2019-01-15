@@ -37,7 +37,7 @@ class Project extends Component {
             <ModalImage className="smallImg" small={require("./images/60212/ss3.png")} large={require("./images/60212/ss3.png")} hideDownload="true" hideZoom="true"/>
             <ModalImage className="smallImg" small={require("./images/60212/ss0.png")} large={require("./images/60212/ss0.png")} hideDownload="true" hideZoom="true"/>
             <br></br>
-            This was a project for 60-212. The prompt was to write software that generates chapter for a book. You can read about my process <a href="http://cmuems.com/2018/60212f/lass/11/16/lass-book/">here</a>!
+            This was a project for 60-212: Interactivity and Computation. The prompt was to write software that generates chapter for a book. You can read about my process <a href="http://cmuems.com/2018/60212f/lass/11/16/lass-book/">here</a>!
           </div>
         );
       case "comic": 
@@ -63,7 +63,7 @@ class Project extends Component {
             You can read about my process <a href="http://cmuems.com/2018/60212f/lass/10/12/lass-body/">here</a>, and play with the online version <a href="https://lassyla.me/People/">here</a>!
             <br></br>
             <br></br>
-            This was a project for 60-212. The assignment was to use motion capture data in a creative way. I wrote an application using three.js that takes a string input as a random seed to create a "garbage character". The characters you see here were created with the usernames of my classmates. 
+            This was a project for 60-212: Interactivity and Computation. The assignment was to use motion capture data in a creative way. I wrote an application using three.js that takes a string input as a random seed to create a "garbage character". The characters you see here were created with the usernames of my classmates. 
             <br></br><br></br> I used GLSL to create random materials for the characters, like gradients and stripes. 
             <br></br>
             <ModalImage className="smallImg" small={require("./images/60212/shortwalk.gif")} large={require("./images/60212/shortwalk.gif")} hideDownload="true" hideZoom="true"/>
@@ -78,8 +78,8 @@ class Project extends Component {
 
             <img className="medImg" src={require("./images/60212/clock2.gif")} />
             <br></br>
-            You can view it <a href="https://lassyla.me/clocks/">here</a>, and read about my process <a href="http://cmuems.com/2018/60212f/lass/09/21/lass-clock/">here</a>!
-            <br></br><br></br>This was a project for 60-212. It is a clock that completes a cycle every 745 minutes, which marks the difference between a high and low tide. The tidal pool gets revealed at low tide and covered at high tide. I originally set the clock to show the tide of Virginia Beach, though it might need calibration! 
+            You can view the clock <a href="https://lassyla.me/clocks/">here</a>, and read about my process <a href="http://cmuems.com/2018/60212f/lass/09/21/lass-clock/">here</a>!
+            <br></br><br></br>This was a project for 60-212: Interactivity and Computation. It is a clock that completes a cycle every 745 minutes, which marks the difference between a high and low tide. The tidal pool gets revealed at low tide and covered at high tide. I originally set the clock to show the tide of Virginia Beach, though it might need calibration! 
             <br></br>I used Blender to create the beach shore, and three.js/GLSL to program the cycle of the clock, water movement, and sky color. 
             <br></br>
             <br></br>
@@ -92,6 +92,7 @@ class Project extends Component {
           <div className="Project">
             <h>Original Paintings</h>
             <div className="col">
+              <ModalImage className="smallImg" small={require("./images/misc/shroom.png")} large={require("./images/misc/shroom.png")} hideDownload="true" hideZoom="true"/>
               <ModalImage className="smallImg" small={require("./images/misc/jell.gif")} large={require("./images/misc/jell.gif")} hideDownload="true" hideZoom="true"/>
               <ModalImage className="smallImg" small={require("./images/misc/camping1.png")} large={require("./images/misc/camping1.png")} hideDownload="true" hideZoom="true"/>
               <ModalImage className="smallImg" small={require("./images/misc/camping2.png")} large={require("./images/misc/camping2.png")} hideDownload="true" hideZoom="true"/>
@@ -122,16 +123,18 @@ class Project extends Component {
           <div className="Project">
             <h>Fan art</h>
             <div className="col">
+              <ModalImage className="smallImg" small={require("./images/fanart/mob.png")} large={require("./images/fanart/mob.png")} hideDownload="true" hideZoom="true"/>
               <ModalImage className="smallImg" small={require("./images/fanart/spirited away2.png")} large={require("./images/fanart/spirited away2.png")} hideDownload="true" hideZoom="true"/>
               <ModalImage className="smallImg" small={require("./images/fanart/kiki2.png")} large={require("./images/fanart/kiki2.png")} hideDownload="true" hideZoom="true"/>
             </div>
             <div className="col">
+              <ModalImage className="smallImg" small={require("./images/fanart/tsu.png")} large={require("./images/fanart/tsu.png")} hideDownload="true" hideZoom="true"/>
               <ModalImage className="smallImg" small={require("./images/fanart/azura3.png")} large={require("./images/fanart/azura3.png")} hideDownload="true" hideZoom="true"/>
               <ModalImage className="smallImg" small={require("./images/fanart/corrin2.png")} large={require("./images/fanart/corrin2.png")} hideDownload="true" hideZoom="true"/>
             </div>
             <div className="col">
-              <ModalImage className="smallImg" small={require("./images/fanart/howls2.png")} large={require("./images/fanart/howls2.png")} hideDownload="true" hideZoom="true"/>
               <ModalImage className="smallImg" small={require("./images/fanart/undertale.png")} large={require("./images/fanart/undertale.png")} hideDownload="true" hideZoom="true"/>
+              <ModalImage className="smallImg" small={require("./images/fanart/howls2.png")} large={require("./images/fanart/howls2.png")} hideDownload="true" hideZoom="true"/>
             </div>
           </div>
         );

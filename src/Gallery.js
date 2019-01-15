@@ -23,7 +23,7 @@ class Gallery extends Component {
           <Box link="huevember" filetype=".png"  desc="Huevember" filter={this.state.categories[this.props.current]}/> 
           {/* <Box link="genbook" filetype=".png" desc="Generative Book: Medical Facts" filter={this.state.categories[this.props.current]}/>  */}
           <Box link="mocap" filetype=".gif" desc="Motion Capture" filter={this.state.categories[this.props.current]}/> 
-          <Box link="painter" filetype=".png" desc="Flower Painter" filter={this.state.categories[this.props.current]}/> 
+          <Box link="painter" filetype=".png" desc="Planet Painter" filter={this.state.categories[this.props.current]}/> 
           <Box link="misc3d" filetype=".gif" desc="3D models" filter={this.state.categories[this.props.current]}/> 
           <Box link="tidal" filetype=".png" desc="Tidal Clock" filter={this.state.categories[this.props.current]}/> 
           <Box link="misc" filetype=".png" desc="Original Paintings" filter={this.state.categories[this.props.current]}/> 
