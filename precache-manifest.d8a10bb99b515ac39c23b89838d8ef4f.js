@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "eed73a7154d755f4f4831acf87404bfe",
-    "url": "/static/media/teentitans.eed73a71.png"
+    "revision": "ffa766ec21f60327fb10e67771129ec3",
+    "url": "/static/media/egg4.ffa766ec.png"
   },
   {
-    "revision": "aa47b8594fdf45a69cdb",
-    "url": "/static/css/main.85a41982.chunk.css"
+    "revision": "4e067cfa89cf7f21bfc4",
+    "url": "/static/css/main.cd1bac1a.chunk.css"
   },
   {
-    "revision": "1bb0d8e598d4302c2ea6",
-    "url": "/static/js/1.1bb0d8e5.chunk.js"
+    "revision": "f43d84bc8b43a48c25a3",
+    "url": "/static/js/1.f43d84bc.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -116,12 +116,16 @@ self.__precacheManifest = [
     "url": "/static/media/clock3.eb7042df.gif"
   },
   {
-    "revision": "5030908a06cf2532a2735a262d80d615",
-    "url": "/static/media/shroom.5030908a.png"
+    "revision": "365b5320a9ab05273da5be03397614ea",
+    "url": "/static/media/sketch2.365b5320.png"
   },
   {
     "revision": "4f5cf71e3932a724707e62cce09c1f58",
     "url": "/static/media/jell.4f5cf71e.gif"
+  },
+  {
+    "revision": "9d21d385b36ccdbbcc11f8ce66072291",
+    "url": "/static/media/greentea.9d21d385.png"
   },
   {
     "revision": "533e2f9f40780771b08e30a07bacdb8f",
@@ -132,12 +136,12 @@ self.__precacheManifest = [
     "url": "/static/media/camping2.4fd156e3.png"
   },
   {
-    "revision": "83345b80a9b02c2c8f2bfa8f3584c5a1",
-    "url": "/static/media/artfriends.83345b80.png"
-  },
-  {
     "revision": "8877bbea5c78daec140960673ca07f63",
     "url": "/static/media/idk.8877bbea.jpg"
+  },
+  {
+    "revision": "8beea433f40167265ca4b0ebbc882eb9",
+    "url": "/static/media/sketch1.8beea433.png"
   },
   {
     "revision": "bb3507528d580c3b7d45028c4532752c",
@@ -168,6 +172,10 @@ self.__precacheManifest = [
     "url": "/static/media/airhead.fc6b62af.jpg"
   },
   {
+    "revision": "b200e6e4678fb70ae53b5e8bf206d899",
+    "url": "/static/media/sketch3.b200e6e4.png"
+  },
+  {
     "revision": "3db03ca0ea8e86512b1f5d89f5fa56db",
     "url": "/static/media/frogpond.3db03ca0.png"
   },
@@ -188,12 +196,24 @@ self.__precacheManifest = [
     "url": "/static/media/artie.96e46795.png"
   },
   {
-    "revision": "a4516a50fbc8e1c580b57b8887421add",
-    "url": "/static/media/mob.a4516a50.png"
+    "revision": "83345b80a9b02c2c8f2bfa8f3584c5a1",
+    "url": "/static/media/artfriends.83345b80.png"
+  },
+  {
+    "revision": "093ed3673a1a47d2ff1220bb1a6aa280",
+    "url": "/static/media/mob.093ed367.png"
   },
   {
     "revision": "aff7aff4cd8be8afa2629781f2b7028f",
     "url": "/static/media/spirited away2.aff7aff4.png"
+  },
+  {
+    "revision": "02ea71ca0b815f0c6431d50a451399d4",
+    "url": "/static/media/mudkip.02ea71ca.png"
+  },
+  {
+    "revision": "8031daf7f478918e4d361284df53c003",
+    "url": "/static/media/mimi.8031daf7.png"
   },
   {
     "revision": "56b177c27c157bc5195802c80bb17d03",
@@ -208,10 +228,6 @@ self.__precacheManifest = [
     "url": "/static/media/azura3.d5c86520.png"
   },
   {
-    "revision": "c435a7b4d0e78024d926658575b189a2",
-    "url": "/static/media/corrin2.c435a7b4.png"
-  },
-  {
     "revision": "8a9a60e1b8ffd9a8d049b214e998d9f0",
     "url": "/static/media/undertale.8a9a60e1.png"
   },
@@ -220,12 +236,16 @@ self.__precacheManifest = [
     "url": "/static/media/howls2.e678728d.png"
   },
   {
-    "revision": "aa47b8594fdf45a69cdb",
-    "url": "/static/js/main.aa47b859.chunk.js"
+    "revision": "721fb48b5f8d6826e882dcf91e779ebe",
+    "url": "/static/media/noodle.721fb48b.png"
   },
   {
-    "revision": "ffa766ec21f60327fb10e67771129ec3",
-    "url": "/static/media/egg4.ffa766ec.png"
+    "revision": "eed73a7154d755f4f4831acf87404bfe",
+    "url": "/static/media/teentitans.eed73a71.png"
+  },
+  {
+    "revision": "4e067cfa89cf7f21bfc4",
+    "url": "/static/js/main.4e067cfa.chunk.js"
   },
   {
     "revision": "3703ed7dc9f68b45ad18cb164a6f39b1",
@@ -292,6 +312,22 @@ self.__precacheManifest = [
     "url": "/static/media/2.baa6e6aa.png"
   },
   {
+    "revision": "e6a0e214e0a2e0c69f29d5120798bf60",
+    "url": "/static/media/greentea.e6a0e214.gif"
+  },
+  {
+    "revision": "f904caa6279eed6103375840c56822b7",
+    "url": "/static/media/blu.f904caa6.gif"
+  },
+  {
+    "revision": "919fc9c7f544b5b39045df813e501581",
+    "url": "/static/media/gradient.919fc9c7.gif"
+  },
+  {
+    "revision": "7d347fbe2cc05764011977d3d0118e33",
+    "url": "/static/media/praxinoscope.7d347fbe.gif"
+  },
+  {
     "revision": "e079938b57ad74be25143e069efe7fa3",
     "url": "/static/media/sloog.e079938b.png"
   },
@@ -326,6 +362,14 @@ self.__precacheManifest = [
   {
     "revision": "2d34a32820bb219487ba112111d6df1a",
     "url": "/static/media/randomloops.2d34a328.gif"
+  },
+  {
+    "revision": "facefbc4fbc37c2f1b21df3923d96466",
+    "url": "/static/media/shroomcrop.facefbc4.png"
+  },
+  {
+    "revision": "5030908a06cf2532a2735a262d80d615",
+    "url": "/static/media/shroom.5030908a.png"
   },
   {
     "revision": "d9c81d0ca169f3649128d2215f335f3f",
@@ -384,6 +428,10 @@ self.__precacheManifest = [
     "url": "/static/media/gghippo.d0b28022.png"
   },
   {
+    "revision": "7d347fbe2cc05764011977d3d0118e33",
+    "url": "/static/media/gif.7d347fbe.gif"
+  },
+  {
     "revision": "2d3d04ace80e778d530efdd4613c74c7",
     "url": "/static/media/hackathon.2d3d04ac.png"
   },
@@ -440,7 +488,7 @@ self.__precacheManifest = [
     "url": "/static/media/webdev.6fa24da1.png"
   },
   {
-    "revision": "1fa213e143e26209d1e5c5196fad2afb",
+    "revision": "6681b85966cc0a67b2039183e3ae5b9d",
     "url": "/index.html"
   }
 ];
