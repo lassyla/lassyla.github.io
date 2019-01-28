@@ -125,11 +125,12 @@ a{
 }
 
 .col{
-    max-width: 300px;
+    max-width: 350px;
     display: inline-block;
     margin: 10px;
     vertical-align: top; 
   }
+
 iframe{
     margin: 10px; 
 }
