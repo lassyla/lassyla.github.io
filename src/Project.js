@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import ModalImage from 'react-modal-image'
+import pdf from './RESUME_SPRING_2019.pdf';
+
 
 class Project extends Component {
   constructor(props) {
@@ -340,12 +342,14 @@ class Project extends Component {
             <h>About Me</h>
             Hi! I'm Alyssa Lee. I love to write code and make art.
             <br></br> <br></br>
-            I'm a sophomore in the <a href="https://www.cmu.edu/interdisciplinary/programs/bcsa.html">Computer Science and Arts</a> program at Carnegie Mellon University. 
+            You can view my resume <a href={pdf}>here</a>. 
+            <br></br>
+            {/* I'm a sophomore in the <a href="https://www.cmu.edu/interdisciplinary/programs/bcsa.html">Computer Science and Arts</a> program at Carnegie Mellon University. 
             <br></br> <br></br>
             In my free time, I like to learn new things! Currently, I am teaching myself 3D modeling, scripting, and animation. 
             <br></br> <br></br>
             I also love community service! I am a proud member of <a href="https://apo.org/">Alpha Phi Omega</a>, the national service fraternity. 
-            <br></br>
+            <br></br> */}
             <br></br><a href="&#x6D;&#x61;&#x69;&#x6C;&#x74;&#x6F;&#x3A;&#x20;&#x61;&#x6C;&#x79;&#x73;&#x73;&#x61;&#x6C;&#x40;&#x61;&#x6E;&#x64;&#x72;&#x65;&#x77;&#x2E;&#x63;&#x6D;&#x75;&#x2E;&#x65;&#x64;&#x75;&#xA;">&#x20;&#x61;&#x6C;&#x79;&#x73;&#x73;&#x61;&#x6C;&#x40;&#x61;&#x6E;&#x64;&#x72;&#x65;&#x77;&#x2E;&#x63;&#x6D;&#x75;&#x2E;&#x65;&#x64;&#x75;&#xA;</a>
             <br></br><a href="https://twitter.com/lassylaa">twitter @lassylaa</a>
             <br></br><a href="https://github.com/lassyla">github @lassyla</a>
