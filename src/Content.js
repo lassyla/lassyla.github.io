@@ -18,7 +18,7 @@ class App extends Component {
         <div className="Content">
         <br></br>
             <div className="Header">
-              <div id="name">Alyssa Lee</div>
+              <div id="name">Alyssa H. Lee</div>
               <br></br>
               <div id="buttons">
                 <Link className={"button " + (this.state.current === "home" ? "active" : "")} to="/" onClick={() => this.setState({current: "home"})}>home</Link>
