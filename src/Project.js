@@ -95,15 +95,15 @@ class Project extends Component {
             <h>Original Art</h>
             <div className="col">
               <ModalImage  small={require("./images/misc/shroomcrop.png")} large={require("./images/misc/shroom.png")} hideDownload="true" hideZoom="true"/>
-              <ModalImage small={require("./images/misc/sketch2.png")} large={require("./images/misc/sketch2.png")} hideDownload="true" hideZoom="true"/>
               <ModalImage  small={require("./images/misc/jell.gif")} large={require("./images/misc/jell.gif")} hideDownload="true" hideZoom="true"/>
               <ModalImage  small={require("./images/misc/greentea.png")} large={require("./images/misc/greentea.png")} hideDownload="true" hideZoom="true"/>
               <ModalImage small={require("./images/misc/camping1.png")} large={require("./images/misc/camping1.png")} hideDownload="true" hideZoom="true"/>
               <ModalImage small={require("./images/misc/camping2.png")} large={require("./images/misc/camping2.png")} hideDownload="true" hideZoom="true"/>
               <ModalImage small={require("./images/misc/idk.jpg")} large={require("./images/misc/idk.jpg")} hideDownload="true" hideZoom="true"/>
+              <ModalImage small={require("./images/misc/artfriends.png")} large={require("./images/misc/artfriends.png")} hideDownload="true" hideZoom="true"/>
             </div>
             <div className="col">
-              <ModalImage small={require("./images/misc/sketch1.png")} large={require("./images/misc/sketch1.png")} hideDownload="true" hideZoom="true"/>
+              <ModalImage small={require("./images/misc/egg cloud.png")} large={require("./images/misc/egg cloud.png")} hideDownload="true" hideZoom="true"/>
               <ModalImage small={require("./images/misc/goodbye room.png")} large={require("./images/misc/goodbye room.png")} hideDownload="true" hideZoom="true"/>
               <ModalImage small={require("./images/misc/camping3.png")} large={require("./images/misc/camping3.png")} hideDownload="true" hideZoom="true"/>
               <ModalImage small={require("./images/misc/cloud.png")} large={require("./images/misc/cloud.png")} hideDownload="true" hideZoom="true"/>
@@ -113,13 +113,13 @@ class Project extends Component {
               <ModalImage small={require("./images/misc/airhead.jpg")} large={require("./images/misc/airhead.jpg")} hideDownload="true" hideZoom="true"/>
             </div>
             <div className="col">
+              <ModalImage small={require("./images/misc/wtfslug.png")} large={require("./images/misc/wtfslug.png")} hideDownload="true" hideZoom="true"/>
               <ModalImage small={require("./images/misc/sketch3.png")} large={require("./images/misc/sketch3.png")} hideDownload="true" hideZoom="true"/>
               <ModalImage small={require("./images/misc/frogpond.png")} large={require("./images/misc/frogpond.png")} hideDownload="true" hideZoom="true"/>
               <ModalImage small={require("./images/misc/box.png")} large={require("./images/misc/box.png")} hideDownload="true" hideZoom="true"/>
               <ModalImage small={require("./images/misc/forest_monster.png")} large={require("./images/misc/forest_monster.png")} hideDownload="true" hideZoom="true"/>
               <ModalImage small={require("./images/misc/flamingo.jpg")} large={require("./images/misc/flamingo.jpg")} hideDownload="true" hideZoom="true"/>
               <ModalImage small={require("./images/misc/artie.png")} large={require("./images/misc/artie.png")} hideDownload="true" hideZoom="true"/>
-              <ModalImage small={require("./images/misc/artfriends.png")} large={require("./images/misc/artfriends.png")} hideDownload="true" hideZoom="true"/>
             </div>
 
           </div>
@@ -285,6 +285,7 @@ class Project extends Component {
             3D doodles made with Maya, Substance Painter, and Blender.
             <br></br>
             <div className="col">
+              <ModalImage small={require("./images/3d/frog.gif")} large={require("./images/3d/frog.gif")} hideDownload="true" hideZoom="true"/>
               <ModalImage small={require("./images/3d/anna2.png")} large={require("./images/3d/anna2.png")} hideDownload="true" hideZoom="true"/>
               <ModalImage small={require("./images/3d/bun.png")} large={require("./images/3d/bun.png")} hideDownload="true" hideZoom="true"/>
               <ModalImage small={require("./images/3d/sloog.png")} large={require("./images/3d/sloog.png")} hideDownload="true" hideZoom="true"/>
@@ -321,6 +322,41 @@ class Project extends Component {
             <br></br>
           </div>
         );
+      case "ink": 
+      return (
+        <div className="Project">
+          <h>Ink</h>
+          <img className="smallImg" src={require("./images/ink/demo1.gif")}></img> 
+          <img className="smallImg" src={require("./images/ink/demo2.gif")}></img> 
+          <br></br>
+          <iframe src="https://player.vimeo.com/video/321698277" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          <br></br>
+          A small drawing program where you run around eating ink bugs to change the color of your trail. Eating consecutive bugs of the same color increases your line width, and you can jump to flood fill! Created using Unity, Maya, and PixelRender. Music by Project Noot. 
+          <br></br>
+          <br></br>
+          <img className="medImg" src={require("./images/ink/sketches.jpg")}></img> 
+
+          <br></br>
+        </div>
+      );
+      case "eggbot": 
+      return (
+        <div className="Project">
+          <h>@good_egg_bot</h>
+          <br></br>
+          A twitter bot that makes your breakfast. Tweet at <a href="https://twitter.com/good_egg_bot">@good_egg_bot</a> to get some free eggs! @good_egg_bot can respond to specific queries, such as certain colors, sizes, and numbers of eggs. 
+          <br></br>
+          <img className="medImg" src={require("./images/eggbot/me.png")}></img> 
+          <img className="medImg" src={require("./images/eggbot/me2.png")}></img> 
+          <br></br>
+          If you are lucky, you might get a double yolk! <br></br>
+          <img className="medImg" src={require("./images/eggbot/twin.png")}></img> 
+
+
+          <br></br>
+        </div>
+      );
+
       case "home": 
         return (
           <div className="Project"><br></br> 
