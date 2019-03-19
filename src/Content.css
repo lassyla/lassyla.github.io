@@ -138,3 +138,24 @@ iframe{
     vertical-align: middle; 
   
 }
+
+.code{
+    width: 48%; 
+    display: inline-block; 
+    vertical-align: top;
+    margin-top: 40px; 
+    max-height: 450px; 
+    overflow-y: scroll; 
+}
+
+.explanation{
+    width: 48%; 
+    padding: 1%; 
+    display: inline-block; 
+    vertical-align: top;
+    margin-top: 40px; 
+}
+
+.invisble{  
+    color: green; 
+}

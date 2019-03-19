@@ -52,11 +52,13 @@ class App extends Component {
               <Route path={process.env.PUBLIC_URL + '/webdev'} component={() => <Project link="webdev"/>} />
               <Route path={process.env.PUBLIC_URL + '/ink'} component={() => <Project link="ink"/>} />
               <Route path={process.env.PUBLIC_URL + '/eggbot'} component={() => <Project link="eggbot"/>} />
+              <Route path={process.env.PUBLIC_URL + '/ea'} component={() => <Project link="ea"/>} />
               <Route path={process.env.PUBLIC_URL + '/2d'} component={() => <Gallery current="2d"/>} />
               <Route path={process.env.PUBLIC_URL + '/3d'} component={() => <Gallery current="3d"/>} />
               <Route path={process.env.PUBLIC_URL + '/about'} component={() => <Project link="about"/>} />
               <Route path={process.env.PUBLIC_URL + '/code'} component={() => <Gallery current="code"/>} />
               <Route path={process.env.PUBLIC_URL + '/'} component={() => <Project link="home"/>} />
+
             </Switch>
         </div>
     );

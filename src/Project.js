@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ModalImage from 'react-modal-image'
 import pdf from './RESUME_SPRING_2019.pdf';
+import ReactEmbedGist from 'react-embed-gist';
 
 
 class Project extends Component {
@@ -310,18 +311,20 @@ class Project extends Component {
             In late 2017, I created a personal website. <br></br>In 2018, I learned React and decided to completely redo my site with a new design (you're looking at it now!). <br></br><a href="http://lassyla.me/lassyla.github.io-old/">You can view the old one here.</a>
           </div>
         );
+        
       case "painter": 
         return (
           <div className="Project">
             <h>Planet Painter</h>
             <img className="medImg" src={require("./images/painter/flowers.gif")}></img> 
-            <br></br>You can play with it <a href="https://lassyla.me/TravelCube/shader3.html">here</a>, but be warned it is still in-progress! 
+            <br></br>You can play with it <a href="https://lassyla.me/TravelCube/shader3.html">here</a>!
             <br></br><br></br>
             A personal project I am working on, where you paint flowers on a planet with your mouse! It is currently a work in progress. I want to add functionality that lets the user choose the colors, and possibly paint other surfaces (trees, water, rocks, etc.). 
             <br></br>I am using three.js and GLSL to create this project. The flowers are all made procedurally from polar equations. Ever since I learned about rose curves in high school, I've wanted to create an art project with them! <br></br>
             <br></br>
           </div>
         );
+
       case "ink": 
       return (
         <div className="Project">
@@ -339,6 +342,7 @@ class Project extends Component {
           <br></br>
         </div>
       );
+
       case "eggbot": 
       return (
         <div className="Project">
@@ -357,6 +361,57 @@ class Project extends Component {
         </div>
       );
 
+      case "ea": 
+      return (
+        <div className="Project">
+          <h>Code Samples</h>
+          <br></br>
+          <ReactEmbedGist gist="lassyla/80d84034af253436b5df630183292f46" 
+            wrapperClass="code"
+            loadingClass="code"
+            titleClass="invisible" />
+          <div className="explanation">
+            <img className="smallImg" src={require("./images/ink/demo1.gif")}></img> 
+            <br></br>
+            C# (Unity)<br></br> <br></br> 
+            This script was used to generate the floor texture in my <a href="https://lassyla.me/#/ink">Ink</a> drawing software. It creates trailing lines behind the player, and flood fills when they jump and land. 
+          </div>
+
+          <br></br>
+          <br></br>
+          <br></br>
+
+          <div className="explanation">
+            <img className="smallImg" src={require("./images/painter/flowers2.gif")}></img> 
+            <br></br>
+            three.js and GLSL <br></br> <br></br> 
+            An interactive sketch where the user can<a href="https://lassyla.me/#/painter"> paint flowers onto a planet. </a>The flowers that bloom are shaped from polar equations. 
+          </div>
+          <ReactEmbedGist gist="lassyla/3fe869046127d8a3b0d721c84b81fe87" 
+            wrapperClass="code"
+            loadingClass="code"
+            titleClass="invisible" />
+
+          <br></br>
+          <br></br>
+          <br></br>
+
+          <ReactEmbedGist gist="lassyla/a5da2b8ec9277d9a89c6d3ffee898965" 
+            wrapperClass="code"
+            loadingClass="code"
+            titleClass="invisible" />
+          <div className="explanation">
+            <img style={{width: "400px"}} src={require("./images/huevember/egg_gen.gif")}></img> 
+            <br></br>
+            Python (Maya) <br></br> <br></br> 
+            A short script that creates a bunch of random eggs. It was used in my <a href="https://lassyla.me/#/huevember">Huevember</a> project, and was a precursor to my recent <a href="https://lassyla.me/#/eggbot">Twitter bot.</a>
+          </div>
+
+          <br></br>
+        </div>
+      );
+
+
       case "home": 
         return (
           <div className="Project"><br></br> 
@@ -372,6 +427,7 @@ class Project extends Component {
             </div>
           </div>
         );
+
       case "about": 
         return (
           <div className="Project">
@@ -403,6 +459,5 @@ class Project extends Component {
     );
   }
 }
-
 
 export default Project;
