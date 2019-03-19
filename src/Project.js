@@ -355,6 +355,8 @@ class Project extends Component {
           <br></br>
           If you are lucky, you might get a double yolk! <br></br>
           <img className="medImg" src={require("./images/eggbot/twin.png")}></img> 
+          <br></br>
+          This bot was made possible with three.js, nlp-compromise, headless-gl, and the twitter npm package. 
 
 
           <br></br>
