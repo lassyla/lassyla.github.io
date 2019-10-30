@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ModalImage from 'react-modal-image'
-import pdf from './RESUME_SPRING_2019.pdf';
+import pdf from './resume_fall_2019.pdf';
 import ReactEmbedGist from 'react-embed-gist';
 
 
@@ -23,11 +23,11 @@ class Project extends Component {
             <ModalImage className="smallImg" small={require("./images/huevember/blue.png")} large={require("./images/huevember/blue.png")} hideDownload="true" hideZoom="true"/>
             <ModalImage className="smallImg" small={require("./images/huevember/purple.png")} large={require("./images/huevember/purple.png")} hideDownload="true" hideZoom="true"/>            
             <br></br> Also, I wrote a Python script to make eggs. I'm pretty happy with it.<br></br>
-            <img src={require("./images/huevember/egg_gen.gif")}/> <br></br>
-            Some progress shots: <br></br>
-            <ModalImage className="smallImg" small={require("./images/huevember/greenwip.png")} large={require("./images/huevember/greenwip.png")} hideDownload="true" hideZoom="true"/>            
-            <ModalImage className="smallImg" small={require("./images/huevember/orange_render.png")} large={require("./images/huevember/orange_render.png")} hideDownload="true" hideZoom="true"/>            
-            <ModalImage className="smallImg" small={require("./images/huevember/bluewip.png")} large={require("./images/huevember/bluewip.png")} hideDownload="true" hideZoom="true"/>            
+            <ModalImage className="medImg" small={require("./images/huevember/egg_gen.gif")} large={require("./images/huevember/egg_gen.gif")} hideDownload="true" hideZoom="true"/>            
+            <br></br>Some progress shots: <br></br>
+            <ModalImage className="medImg" small={require("./images/huevember/greenwip.png")} large={require("./images/huevember/greenwip.png")} hideDownload="true" hideZoom="true"/>            
+            <ModalImage className="medImg" small={require("./images/huevember/orange_render.png")} large={require("./images/huevember/orange_render.png")} hideDownload="true" hideZoom="true"/>            
+            <ModalImage className="medImg" small={require("./images/huevember/bluewip.png")} large={require("./images/huevember/bluewip.png")} hideDownload="true" hideZoom="true"/>            
 
             <br></br>
           </div>
@@ -95,6 +95,7 @@ class Project extends Component {
           <div className="Project">
             <h>Original Art</h>
             <div className="col">
+              <ModalImage  small={require("./images/misc/bridge.png")} large={require("./images/misc/bridge.png")} hideDownload="true" hideZoom="true"/>
               <ModalImage  small={require("./images/misc/shroomcrop.png")} large={require("./images/misc/shroom.png")} hideDownload="true" hideZoom="true"/>
               <ModalImage  small={require("./images/misc/jell.gif")} large={require("./images/misc/jell.gif")} hideDownload="true" hideZoom="true"/>
               <ModalImage  small={require("./images/misc/greentea.png")} large={require("./images/misc/greentea.png")} hideDownload="true" hideZoom="true"/>
@@ -104,6 +105,7 @@ class Project extends Component {
               <ModalImage small={require("./images/misc/artfriends.png")} large={require("./images/misc/artfriends.png")} hideDownload="true" hideZoom="true"/>
             </div>
             <div className="col">
+              <ModalImage small={require("./images/misc/stagbeetle.png")} large={require("./images/misc/stagbeetle.png")} hideDownload="true" hideZoom="true"/>
               <ModalImage small={require("./images/misc/egg cloud.png")} large={require("./images/misc/egg cloud.png")} hideDownload="true" hideZoom="true"/>
               <ModalImage small={require("./images/misc/goodbye room.png")} large={require("./images/misc/goodbye room.png")} hideDownload="true" hideZoom="true"/>
               <ModalImage small={require("./images/misc/camping3.png")} large={require("./images/misc/camping3.png")} hideDownload="true" hideZoom="true"/>
@@ -114,6 +116,7 @@ class Project extends Component {
               <ModalImage small={require("./images/misc/airhead.jpg")} large={require("./images/misc/airhead.jpg")} hideDownload="true" hideZoom="true"/>
             </div>
             <div className="col">
+              <ModalImage small={require("./images/misc/pollen.jpg")} large={require("./images/misc/pollen.jpg")} hideDownload="true" hideZoom="true"/>
               <ModalImage small={require("./images/misc/wtfslug.png")} large={require("./images/misc/wtfslug.png")} hideDownload="true" hideZoom="true"/>
               <ModalImage small={require("./images/misc/sketch3.png")} large={require("./images/misc/sketch3.png")} hideDownload="true" hideZoom="true"/>
               <ModalImage small={require("./images/misc/frogpond.png")} large={require("./images/misc/frogpond.png")} hideDownload="true" hideZoom="true"/>
@@ -270,12 +273,12 @@ class Project extends Component {
           <div className="Project">
           <h>2D Animation</h>
           <br></br> These are some of my attempts at 2D animation! They are done in Toon Boom Studio. They are all from 2017 and earlier. <br></br>
-          <iframe width="500" height="315" src="https://www.youtube.com/embed/8kb6DQRK9o0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <iframe width="500" height="315" src="https://www.youtube.com/embed/-N6Re6cZ17o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <iframe width="500" height="315" src="https://www.youtube.com/embed/jQoMUqmzaWs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <iframe width="500" height="315" src="https://www.youtube.com/embed/JA13OpkzECE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <iframe width="500" height="315" src="https://www.youtube.com/embed/RwoboZ_4BuQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <iframe width="500" height="315" src="https://www.youtube.com/embed/AUd70Vv_uIQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe className="smallVideo" src="https://www.youtube.com/embed/8kb6DQRK9o0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe className="smallVideo" src="https://www.youtube.com/embed/-N6Re6cZ17o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe className="smallVideo" src="https://www.youtube.com/embed/jQoMUqmzaWs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe className="smallVideo" src="https://www.youtube.com/embed/JA13OpkzECE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe className="smallVideo" src="https://www.youtube.com/embed/RwoboZ_4BuQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe className="smallVideo" src="https://www.youtube.com/embed/AUd70Vv_uIQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         );
 
@@ -332,7 +335,7 @@ class Project extends Component {
           <img className="smallImg" src={require("./images/ink/demo1.gif")}></img> 
           <img className="smallImg" src={require("./images/ink/demo2.gif")}></img> 
           <br></br>
-          <iframe src="https://player.vimeo.com/video/321698277" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          <iframe src="https://player.vimeo.com/video/321698277" className="smallVideo" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
           <br></br>
           A small drawing program where you run around eating ink bugs to change the color of your trail. Eating consecutive bugs of the same color increases your line width, and you can jump to flood fill! Created using Unity, Maya, and PixelRender. Music by Project Noot. 
           <br></br>
@@ -418,7 +421,7 @@ class Project extends Component {
         return (
           <div className="Project"><br></br> 
           <div id="frontpage">
-          <iframe width="900" height="500" src="https://www.youtube.com/embed/YiEgutYiNzA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe className="youtube" src="https://www.youtube.com/embed/YiEgutYiNzA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <br></br><ModalImage className="smallImg" small={require("./images/painter/flowers2.gif")} large={require("./images/painter/flowers2.gif")} hideDownload="true" hideZoom="true"/>
             <ModalImage className="medImg" small={require("./images/3d/anna2.png")} large={require("./images/3d/anna2.png")} hideDownload="true" hideZoom="true"/> 
             <ModalImage className="medImg" small={require("./images/3d/bun.png")} large={require("./images/3d/bun.png")} hideDownload="true" hideZoom="true"/>
