@@ -7,7 +7,7 @@ class Gallery extends Component {
     super(props); 
     this.state = {
       categories: { "2d" : ["comic", "misc", "fanart", "stickers", "AP", "toonboom", "gif"],
-                    "3d" : ["painter", "eggbot", "ink", "huevember", "mocap", "tidal", "blender", "shelves", "bot", "misc3d"],
+                    "3d" : ["sim", "pup", "realtime", "painter", "eggbot", "ink", "huevember", "mocap", "tidal", "blender", "shelves", "bot", "misc3d"],
                     "code" : ["painter", "eggbot", "ink", "genbook", "mocap", "tidal", "karen", "processing", "shelves", "bot", "snowgum", "sort", "hackathon", "webdev"],
                     "best": ["huevember", "tidal", "misc", "genbook", "mocap", "fanart"], 
                     "all" : ["huevember", "genbook", "comic", "mocap", "tidal", "misc", "fanart", "stickers", "blender", "processing", "shelves", "bot", "snowgum", "sort", "AP", "hackathon", "rpg", "toonboom", "webdev"],
@@ -20,6 +20,11 @@ class Gallery extends Component {
     return (
         
         <div className="Gallery">
+        
+          <Box link="pup" filetype=".png"  desc="Pixar PUP" filter={this.state.categories[this.props.current]}/> 
+          <Box link="realtime" filetype=".png"  desc="Unity" filter={this.state.categories[this.props.current]}/> 
+          <Box link="sim" filetype=".png"  desc="Simulations" filter={this.state.categories[this.props.current]}/> 
+          <Box link="graphics" filetype=".png"  desc="15-462 Computer Graphics" filter={this.state.categories[this.props.current]}/> 
           <Box link="ink" filetype=".gif"  desc="Ink Game" filter={this.state.categories[this.props.current]}/> 
           <Box link="huevember" filetype=".png"  desc="Huevember" filter={this.state.categories[this.props.current]}/> 
           <Box link="eggbot" filetype=".png"  desc="Eggbot" filter={this.state.categories[this.props.current]}/> 

@@ -366,6 +366,103 @@ class Project extends Component {
         </div>
       );
 
+      
+      case "pup": 
+      return (
+        <div className="Project">
+          <h>Pixar Undergraduate Program</h>
+          <br></br>
+          Last summer (2019) I was a PUP (Pixar Undergraduate Program) Intern! During the internship, I learned about the Pixar animation pipeline and Technical Director roles. Every week we learned something new, including modeling, shading, lighting, rigging, set dressing, layout, and effects. At the end of the internship I had two weeks to create a short film with eight other interns.     
+          <br></br>          
+          <iframe className="youtube" src="https://player.vimeo.com/video/384386041" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <br></br>          
+
+          <div style={{textAlign:"left"}}>
+            1. I created a short film with 8 other Pixar PUP Interns. In this shot, I was responsible for the lighting and shading of some set pieces. I also procedurally modeled the vines that appear in the set throughout the film. 
+            <br></br>      <br></br>          
+            2. In our short, I was responsible for procedurally modelling the crystal prop, as well as the RBD fracture and shatter. 
+            <br></br>     <br></br>           
+            3. The egg simulation was done with FLIP Fluids, and the color of the shader is driven by a primvar. 
+            <br></br>           <br></br>     
+            4. I modeled and shaded a monkey carved out of a coconut. 
+            <br></br>           <br></br>     
+            5. The fireworks were created in Houdini using POP Networks and smoke simulation. 
+            <br></br>           <br></br>     
+            6. I referenced a shot from Pacific Rim to light Gabby from Toy Story 4. 
+
+          <br></br>
+          </div>
+        </div>
+      );
+
+      
+      case "graphics": 
+      return (
+        <div className="Project">
+          <h>Computer Graphics</h>
+          <br></br>
+            
+          <br></br>          
+
+
+        </div>
+      );
+
+      case "realtime": 
+      return (
+        <div className="Project">
+          <h>Real Time Animation in Unity</h>
+          <br></br>
+          In Fall 2019 I took CMU's Real Time Animation class with Nick Crockett. We used Unity to create animations and interactive experiences. The project files are available at <a href="https://lassyla.itch.io/">lassyla.itch.io</a>.      
+          <br></br>          
+          <div className="col">
+            <ModalImage  small={require("./images/realtime/pinata.png")} large={require("./images/realtime/pinata.png")} hideDownload="true" hideZoom="true"/>
+            <ModalImage  small={require("./images/realtime/screenshot1.png")} large={require("./images/realtime/screenshot1.png")} hideDownload="true" hideZoom="true"/>
+            <ModalImage small={require("./images/realtime/bush.gif")} large={require("./images/realtime/bush.gif")} hideDownload="true" hideZoom="true"/>
+            <ModalImage small={require("./images/realtime/planet2.jpg")} large={require("./images/realtime/planet2.jpg")} hideDownload="true" hideZoom="true"/>
+            <ModalImage small={require("./images/realtime/monsters3.gif")} large={require("./images/realtime/monsters3.gif")} hideDownload="true" hideZoom="true"/>
+            </div>
+            <div className="col">
+            <ModalImage small={require("./images/realtime/gif.gif")} large={require("./images/realtime/gif.gif")} hideDownload="true" hideZoom="true"/>
+            <ModalImage small={require("./images/realtime/planet.jpg")} large={require("./images/realtime/planet.jpg")} hideDownload="true" hideZoom="true"/>
+            <ModalImage small={require("./images/realtime/jelly.gif")} large={require("./images/realtime/jelly.gif")} hideDownload="true" hideZoom="true"/>
+            <ModalImage small={require("./images/realtime/sun.gif")} large={require("./images/realtime/sun.gif")} hideDownload="true" hideZoom="true"/>
+            </div>
+            <div className="col">
+              <ModalImage small={require("./images/realtime/machines.png")} large={require("./images/realtime/machines.png")} hideDownload="true" hideZoom="true"/>
+              <ModalImage small={require("./images/realtime/mtn.gif")} large={require("./images/realtime/mtn.gif")} hideDownload="true" hideZoom="true"/>
+              <ModalImage small={require("./images/realtime/baby_displace.gif")} large={require("./images/realtime/baby_displace.gif")} hideDownload="true" hideZoom="true"/>
+              <ModalImage small={require("./images/realtime/monsters1.gif")} large={require("./images/realtime/monsters1.gif")} hideDownload="true" hideZoom="true"/>
+              <ModalImage small={require("./images/realtime/monsters2.gif")} large={require("./images/realtime/monsters2.gif")} hideDownload="true" hideZoom="true"/>
+            </div>
+
+
+
+        </div>
+      );
+
+      case "sim": 
+      return (
+        <div className="Project">
+          <br></br>
+          Some short studies made in Houdini/Maya/Blender!
+          <br></br>          
+          <div className="Gallery">
+          <ModalImage className="smallImg" small={require("./images/sim/jely.gif")} large={require("./images/sim/jely.gif")} hideDownload="true" hideZoom="true"/>
+          <ModalImage className="smallImg" small={require("./images/sim/blueberry.gif")} large={require("./images/sim/blueberry.gif")} hideDownload="true" hideZoom="true"/>
+          <ModalImage className="smallImg" small={require("./images/sim/ging.gif")} large={require("./images/sim/ging.gif")} hideDownload="true" hideZoom="true"/>
+          <ModalImage className="smallImg" small={require("./images/sim/hill.gif")} large={require("./images/sim/hill.gif")} hideDownload="true" hideZoom="true"/>
+          <ModalImage className="smallImg" small={require("./images/sim/sapagety.gif")} large={require("./images/sim/sapagety.gif")} hideDownload="true" hideZoom="true"/>
+          <ModalImage className="smallImg" small={require("./images/sim/cream.gif")} large={require("./images/sim/cream.gif")} hideDownload="true" hideZoom="true"/>
+          <ModalImage className="smallImg" small={require("./images/sim/cake.gif")} large={require("./images/sim/cake.gif")} hideDownload="true" hideZoom="true"/>
+          <ModalImage className="smallImg" small={require("./images/sim/peepgifsquare.gif")} large={require("./images/sim/peepgifsquare.gif")} hideDownload="true" hideZoom="true"/>
+          <ModalImage className="smallImg" small={require("./images/sim/sorry.gif")} large={require("./images/sim/sorry.gif")} hideDownload="true" hideZoom="true"/>
+
+        </div>
+        </div>
+      );
+
+
       case "ea": 
       return (
         <div className="Project">
@@ -421,7 +518,7 @@ class Project extends Component {
         return (
           <div className="Project"><br></br> 
           <div id="frontpage">
-          <iframe className="youtube" src="https://www.youtube.com/embed/YiEgutYiNzA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe className="youtube" src="https://player.vimeo.com/video/384386041" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <br></br><ModalImage className="smallImg" small={require("./images/painter/flowers2.gif")} large={require("./images/painter/flowers2.gif")} hideDownload="true" hideZoom="true"/>
             <ModalImage className="medImg" small={require("./images/3d/anna2.png")} large={require("./images/3d/anna2.png")} hideDownload="true" hideZoom="true"/> 
             <ModalImage className="medImg" small={require("./images/3d/bun.png")} large={require("./images/3d/bun.png")} hideDownload="true" hideZoom="true"/>
@@ -435,25 +532,29 @@ class Project extends Component {
 
       case "about": 
         return (
-          <div className="Project">
-            <h>About Me</h>
-            Hi! I'm Alyssa Lee. I love to write code and make art.
-            <br></br> <br></br>
-            You can view my resume <a href={pdf}>here</a>. 
-            <br></br>
-            {/* I'm a sophomore in the <a href="https://www.cmu.edu/interdisciplinary/programs/bcsa.html">Computer Science and Arts</a> program at Carnegie Mellon University. 
-            <br></br> <br></br>
-            In my free time, I like to learn new things! Currently, I am teaching myself 3D modeling, scripting, and animation. 
-            <br></br> <br></br>
-            I also love community service! I am a proud member of <a href="https://apo.org/">Alpha Phi Omega</a>, the national service fraternity. 
-            <br></br> */}
-            <br></br><a href="&#x6D;&#x61;&#x69;&#x6C;&#x74;&#x6F;&#x3A;&#x20;&#x61;&#x6C;&#x79;&#x73;&#x73;&#x61;&#x6C;&#x40;&#x61;&#x6E;&#x64;&#x72;&#x65;&#x77;&#x2E;&#x63;&#x6D;&#x75;&#x2E;&#x65;&#x64;&#x75;&#xA;">&#x20;&#x61;&#x6C;&#x79;&#x73;&#x73;&#x61;&#x6C;&#x40;&#x61;&#x6E;&#x64;&#x72;&#x65;&#x77;&#x2E;&#x63;&#x6D;&#x75;&#x2E;&#x65;&#x64;&#x75;&#xA;</a>
-            <br></br><a href="https://twitter.com/lassylaa">twitter @lassylaa</a>
-            <br></br><a href="https://github.com/lassyla">github @lassyla</a>
-            <br></br><a href="https://www.instagram.com/lassylaa/">instagram @lassylaa</a>
+          <div className="Project" style={{width:"80%", marginLeft:"10%"}}>
+            <img src={require("./images/stickers/egg5.png")}style={{width:"150px", display:"inline"}}></img>
+              <h>About Me</h>
+              Hi! I'm Alyssa Lee. I love to write code and make art.
+              <br></br> I am a Junior studying Computer Science and Art at Carnegie Mellon University. I am interested in animation, iteractive art, and computer graphics. 
+              <br></br> Last summer I was an intern at Pixar where I learned about the animation pipeline and the role of a Technical Director. 
+              <br></br> Feel free to send me an email at 
+              <a href="&#x6D;&#x61;&#x69;&#x6C;&#x74;&#x6F;&#x3A;&#x20;&#x61;&#x6C;&#x79;&#x73;&#x73;&#x61;&#x6C;&#x40;&#x61;&#x6E;&#x64;&#x72;&#x65;&#x77;&#x2E;&#x63;&#x6D;&#x75;&#x2E;&#x65;&#x64;&#x75;&#xA;">&#x20;&#x61;&#x6C;&#x79;&#x73;&#x73;&#x61;&#x6C;&#x40;&#x61;&#x6E;&#x64;&#x72;&#x65;&#x77;&#x2E;&#x63;&#x6D;&#x75;&#x2E;&#x65;&#x64;&#x75;&#xA;</a>
+              <br></br>
+              You can view my resume <a href={pdf}>here</a>. 
+              <br></br>
+              {/* I'm a sophomore in the <a href="https://www.cmu.edu/interdisciplinary/programs/bcsa.html">Computer Science and Arts</a> program at Carnegie Mellon University. 
+              <br></br> <br></br>
+              In my free time, I like to learn new things! Currently, I am teaching myself 3D modeling, scripting, and animation. 
+              <br></br> <br></br>
+              I also love community service! I am a proud member of <a href="https://apo.org/">Alpha Phi Omega</a>, the national service fraternity. 
+              <br></br> */}
+              <br></br><a href="&#x6D;&#x61;&#x69;&#x6C;&#x74;&#x6F;&#x3A;&#x20;&#x61;&#x6C;&#x79;&#x73;&#x73;&#x61;&#x6C;&#x40;&#x61;&#x6E;&#x64;&#x72;&#x65;&#x77;&#x2E;&#x63;&#x6D;&#x75;&#x2E;&#x65;&#x64;&#x75;&#xA;">&#x20;&#x61;&#x6C;&#x79;&#x73;&#x73;&#x61;&#x6C;&#x40;&#x61;&#x6E;&#x64;&#x72;&#x65;&#x77;&#x2E;&#x63;&#x6D;&#x75;&#x2E;&#x65;&#x64;&#x75;&#xA;</a>
+              <br></br><a href="https://twitter.com/lassylaa">twitter @lassylaa</a>
+              <br></br><a href="https://github.com/lassyla">github @lassyla</a>
+              <br></br><a href="https://www.instagram.com/lassylaa/">instagram @lassylaa</a>
 
-            <br></br> <br></br>
-            
+              
           </div>
         );
     }
