@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ModalImage from 'react-modal-image'
-import pdf from './resume_fall_2019.pdf';
+import pdf from './Alyssa_Lee_Resume_2020_fx.pdf';
 import ReactEmbedGist from 'react-embed-gist';
 
 
@@ -335,7 +335,7 @@ class Project extends Component {
           <img className="smallImg" src={require("./images/ink/demo1.gif")}></img> 
           <img className="smallImg" src={require("./images/ink/demo2.gif")}></img> 
           <br></br>
-          <iframe src="https://player.vimeo.com/video/321698277" className="smallVideo" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          <iframe src="https://player.vimeo.com/video/390178095" className="smallVideo" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
           <br></br>
           A small drawing program where you run around eating ink bugs to change the color of your trail. Eating consecutive bugs of the same color increases your line width, and you can jump to flood fill! Created using Unity, Maya, and PixelRender. Music by Project Noot. 
           <br></br>
