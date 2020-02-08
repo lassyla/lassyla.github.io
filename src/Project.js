@@ -335,7 +335,7 @@ class Project extends Component {
           <img className="smallImg" src={require("./images/ink/demo1.gif")}></img> 
           <img className="smallImg" src={require("./images/ink/demo2.gif")}></img> 
           <br></br>
-          <iframe src="https://player.vimeo.com/video/390178095" className="smallVideo" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          <iframe src="https://player.vimeo.com/video/321698277" className="smallVideo" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
           <br></br>
           A small drawing program where you run around eating ink bugs to change the color of your trail. Eating consecutive bugs of the same color increases your line width, and you can jump to flood fill! Created using Unity, Maya, and PixelRender. Music by Project Noot. 
           <br></br>
@@ -518,7 +518,7 @@ class Project extends Component {
         return (
           <div className="Project"><br></br> 
           <div id="frontpage">
-          <iframe className="youtube" src="https://player.vimeo.com/video/384386041" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe className="youtube" src="https://player.vimeo.com/video/390178095" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <br></br><ModalImage className="smallImg" small={require("./images/painter/flowers2.gif")} large={require("./images/painter/flowers2.gif")} hideDownload="true" hideZoom="true"/>
             <ModalImage className="medImg" small={require("./images/3d/anna2.png")} large={require("./images/3d/anna2.png")} hideDownload="true" hideZoom="true"/> 
             <ModalImage className="medImg" small={require("./images/3d/bun.png")} large={require("./images/3d/bun.png")} hideDownload="true" hideZoom="true"/>
