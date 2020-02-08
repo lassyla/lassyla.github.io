@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/1.9ef30d74.png"
   },
   {
-    "revision": "4bb524ae98c0b6ab4288",
+    "revision": "21a24d2624c17ab2ec31",
     "url": "/static/css/main.360e5f62.chunk.css"
   },
   {
@@ -324,8 +324,8 @@ self.__precacheManifest = [
     "url": "/static/media/fried_egg.0c944cb2.png"
   },
   {
-    "revision": "4bb524ae98c0b6ab4288",
-    "url": "/static/js/main.4bb524ae.chunk.js"
+    "revision": "21a24d2624c17ab2ec31",
+    "url": "/static/js/main.21a24d26.chunk.js"
   },
   {
     "revision": "baa6e6aac873b80574a64d1b7efcd8e7",
@@ -472,8 +472,8 @@ self.__precacheManifest = [
     "url": "/static/media/sorry.7f545f98.gif"
   },
   {
-    "revision": "92c986c5d898d6359c2838f729aa222b",
-    "url": "/static/media/resume_fall_2019.92c986c5.pdf"
+    "revision": "e34e80804cb4445448046fe8471bac03",
+    "url": "/static/media/Alyssa_Lee_Resume_2020_fx.e34e8080.pdf"
   },
   {
     "revision": "2d34a32820bb219487ba112111d6df1a",
@@ -648,7 +648,7 @@ self.__precacheManifest = [
     "url": "/static/media/webdev.6fa24da1.png"
   },
   {
-    "revision": "ab3c9bd1b68da77132f8859d579b231c",
+    "revision": "31f68e561108ddf82ffdc4ec2a565f53",
     "url": "/index.html"
   }
 ];
