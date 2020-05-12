@@ -462,6 +462,22 @@ class Project extends Component {
         </div>
       );
 
+      
+      case "methods": 
+      return (
+        <div className="Project">
+          <br></br>
+          Methods Project for BXA Seminar III 
+          <br></br>          
+          <div className="Gallery">
+          <iframe className="youtube" src="https://player.vimeo.com/video/417439462" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <br></br>
+          <iframe className="youtube" src="https://player.vimeo.com/video/417439221" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        </div>
+      );
+
+
 
       case "ea": 
       return (
@@ -536,7 +552,7 @@ class Project extends Component {
             <img src={require("./images/stickers/egg5.png")}style={{width:"150px", display:"inline"}}></img>
               <h>About Me</h>
               Hi! I'm Alyssa Lee. I love to write code and make art.
-              <br></br> I am a Junior studying Computer Science and Art at Carnegie Mellon University. I am interested in animation, iteractive art, and computer graphics. 
+              <br></br> I am a Junior studying Computer Science and Art at Carnegie Mellon University. I am interested in animation, interactive art, and computer graphics. 
               <br></br> Last summer I was an intern at Pixar where I learned about the animation pipeline and the role of a Technical Director. 
               <br></br> Feel free to send me an email at 
               <a href="&#x6D;&#x61;&#x69;&#x6C;&#x74;&#x6F;&#x3A;&#x20;&#x61;&#x6C;&#x79;&#x73;&#x73;&#x61;&#x6C;&#x40;&#x61;&#x6E;&#x64;&#x72;&#x65;&#x77;&#x2E;&#x63;&#x6D;&#x75;&#x2E;&#x65;&#x64;&#x75;&#xA;">&#x20;&#x61;&#x6C;&#x79;&#x73;&#x73;&#x61;&#x6C;&#x40;&#x61;&#x6E;&#x64;&#x72;&#x65;&#x77;&#x2E;&#x63;&#x6D;&#x75;&#x2E;&#x65;&#x64;&#x75;&#xA;</a>

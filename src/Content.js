@@ -35,6 +35,7 @@ class App extends Component {
               <Route path={process.env.PUBLIC_URL + '/huevember'} component={() => <Project link="huevember"/>} />
               <Route path={process.env.PUBLIC_URL + '/genbook'} component={() => <Project link="genbook"/>} />
               <Route path={process.env.PUBLIC_URL + '/misc3d'} component={() => <Project link="misc3d"/>} />
+              <Route path={process.env.PUBLIC_URL + '/methods'} component={() => <Project link="methods"/>} />
               <Route path={process.env.PUBLIC_URL + '/comic'} component={() => <Project link="comic"/>} />
               <Route path={process.env.PUBLIC_URL + '/mocap'} component={() => <Project link="mocap"/>} />
               <Route path={process.env.PUBLIC_URL + '/tidal'} component={() => <Project link="tidal"/>} />
