@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ModalImage from 'react-modal-image'
-import pdf from './Alyssa_Lee_Resume_2020_fx.pdf';
+import pdf from './Alyssa_Lee_Resume_2021_fx.pdf';
 import ReactEmbedGist from 'react-embed-gist';
 
 
@@ -285,28 +285,61 @@ class Project extends Component {
       case "misc3d": 
         return (
           <div className="Project">
-            <h>3D models</h>
-            3D doodles made with Maya, Substance Painter, and Blender.
+            <h>3D illustrations</h>
+            3D illustrations made with Maya and Blender.
             <br></br>
             <div className="col">
+            <ModalImage small={require("./images/3d/myself.png")} large={require("./images/3d/myself.png")} hideDownload="true" hideZoom="true"/>
+            <ModalImage small={require("./images/3d/meatball.gif")} large={require("./images/3d/meatball.gif")} hideDownload="true" hideZoom="true"/>
+            <ModalImage small={require("./images/3d/frogs.png")} large={require("./images/3d/frogs.png")} hideDownload="true" hideZoom="true"/>
+
               <ModalImage small={require("./images/3d/frog.gif")} large={require("./images/3d/frog.gif")} hideDownload="true" hideZoom="true"/>
               <ModalImage small={require("./images/3d/anna2.png")} large={require("./images/3d/anna2.png")} hideDownload="true" hideZoom="true"/>
-              <ModalImage small={require("./images/3d/bun.png")} large={require("./images/3d/bun.png")} hideDownload="true" hideZoom="true"/>
-              <ModalImage small={require("./images/3d/sloog.png")} large={require("./images/3d/sloog.png")} hideDownload="true" hideZoom="true"/>
             </div>
             <div className="col">
+              <ModalImage small={require("./images/3d/pandora.png")} large={require("./images/3d/pandora.png")} hideDownload="true" hideZoom="true"/>
+              <ModalImage small={require("./images/3d/plant.png")} large={require("./images/3d/plant.png")} hideDownload="true" hideZoom="true"/>
               <ModalImage small={require("./images/3d/angie.gif")} large={require("./images/3d/angie.gif")} hideDownload="true" hideZoom="true"/>
               <ModalImage small={require("./images/3d/sleepy.gif")} large={require("./images/3d/sleepy.gif")} hideDownload="true" hideZoom="true"/>
               <ModalImage small={require("./images/3d/teknos.jpg")} large={require("./images/3d/teknos.jpg")} hideDownload="true" hideZoom="true"/>
             </div>
             <div className="col">
-              <ModalImage small={require("./images/3d/anna.gif")} large={require("./images/3d/anna.gif")} hideDownload="true" hideZoom="true"/>
-              <ModalImage small={require("./images/3d/ella.gif")} large={require("./images/3d/ella.gif")} hideDownload="true" hideZoom="true"/>
+            <ModalImage small={require("./images/3d/eyes.gif")} large={require("./images/3d/eyes.gif")} hideDownload="true" hideZoom="true"/>
+            <ModalImage small={require("./images/3d/frogbrain.png")} large={require("./images/3d/frogbrain.png")} hideDownload="true" hideZoom="true"/>
+            <ModalImage small={require("./images/3d/shell.png")} large={require("./images/3d/shell.png")} hideDownload="true" hideZoom="true"/>
+            <ModalImage small={require("./images/3d/bun.png")} large={require("./images/3d/bun.png")} hideDownload="true" hideZoom="true"/>
+              <ModalImage small={require("./images/3d/sloog.png")} large={require("./images/3d/sloog.png")} hideDownload="true" hideZoom="true"/>
+{/* <ModalImage small={require("./images/3d/anna.gif")} large={require("./images/3d/anna.gif")} hideDownload="true" hideZoom="true"/>
+              <ModalImage small={require("./images/3d/ella.gif")} large={require("./images/3d/ella.gif")} hideDownload="true" hideZoom="true"/> */}
             </div>
 
           </div>
         );
-
+        case "grown": 
+        return (
+          <div className="Project">
+          <h>Grown</h>
+          <br></br> Grown is a short film that tells the story of a young girl who wishes to grow a beard. I created this film with 3 others in the class Animation Art and Technology. I pitched the story concept and was responsible for the beard and house simulations, as well as some modeling, shading, and lighting.   <br></br>
+          <iframe src="https://player.vimeo.com/video/417304688" className="youtube" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          <iframe src="https://player.vimeo.com/video/417302908" className="youtube" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          <br></br>
+          </div>
+        );
+        case "game": 
+        return (
+          <div className="Project">
+          <h>Game Programming</h>
+          <br></br> In this course, I made 7 games total. All games were coded in C++ with assets made in Photoshop and Blender. <br></br>
+          <br></br><a href="https://dmcdominic.itch.io/enviro">Enviro (Group Project)  <br></br> <img className="medImg" src={require("./images/gameprog/enviro.png")}></img> </a>
+          <br></br><br></br><a href="https://github.com/lassyla/game1">Mister Hot Dog<br></br> <img className="medImg" src={require("./images/gameprog/game1.png")}></img></a>
+          <br></br><br></br><a href="https://github.com/lassyla/game4">Sewer Academy: A Rat Dating Simulator (script by Madeline Anthony)<br></br> <img className="medImg" src={require("./images/gameprog/game4.png")}></img></a>
+          <br></br><br></br><a href="https://github.com/lassyla/game3">Cat Pat<br></br> <img className="medImg" src={require("./images/gameprog/game3.png")}></img></a>
+          <br></br><br></br><a href="https://github.com/lassyla/game0">Bob<br></br> <img className="medImg" src={require("./images/gameprog/game0.png")}></img></a>
+          <br></br><br></br><a href="https://github.com/lassyla/game2">Whack a Mackerel<br></br> <img className="medImg" src={require("./images/gameprog/game2.png")}></img></a>
+          <br></br><br></br><a href="https://github.com/lassyla/game5">Corn Maze<br></br> <img className="medImg" src={require("./images/gameprog/game5.png")}></img></a>
+          <br></br>
+          </div>
+        );
       case "webdev": 
         return (
           <div className="Project">
@@ -446,7 +479,7 @@ class Project extends Component {
         <div className="Project">
           <br></br>
           Some short studies made in Houdini/Maya/Blender!
-          <br></br>          
+          <br></br>          This work was supported in part by funding from the Carnegie Mellon University Frank-Ratchye Fund For Art @ the Frontier. <br></br>
           <div className="Gallery">
           <ModalImage className="smallImg" small={require("./images/sim/jely.gif")} large={require("./images/sim/jely.gif")} hideDownload="true" hideZoom="true"/>
           <ModalImage className="smallImg" small={require("./images/sim/blueberry.gif")} large={require("./images/sim/blueberry.gif")} hideDownload="true" hideZoom="true"/>
@@ -534,7 +567,7 @@ class Project extends Component {
         return (
           <div className="Project"><br></br> 
           <div id="frontpage">
-          <iframe className="youtube" src="https://player.vimeo.com/video/390178095" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe className="youtube" src="https://player.vimeo.com/video/508979693" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <br></br><ModalImage className="smallImg" small={require("./images/painter/flowers2.gif")} large={require("./images/painter/flowers2.gif")} hideDownload="true" hideZoom="true"/>
             <ModalImage className="medImg" small={require("./images/3d/anna2.png")} large={require("./images/3d/anna2.png")} hideDownload="true" hideZoom="true"/> 
             <ModalImage className="medImg" small={require("./images/3d/bun.png")} large={require("./images/3d/bun.png")} hideDownload="true" hideZoom="true"/>
@@ -552,11 +585,11 @@ class Project extends Component {
             <img src={require("./images/stickers/egg5.png")}style={{width:"150px", display:"inline"}}></img>
               <h>About Me</h>
               Hi! I'm Alyssa Lee. I love to write code and make art.
-              <br></br> I am a Junior studying Computer Science and Art at Carnegie Mellon University. I am interested in animation, interactive art, and computer graphics. 
+              <br></br> I am a Senior studying Computer Science and Art at Carnegie Mellon University, with a minor in Animation and Special Effects. I am interested in animation, interactive art, and computer graphics. 
               <br></br> Last summer I was an intern at Pixar where I learned about the animation pipeline and the role of a Technical Director. 
-              <br></br> Feel free to send me an email at 
+              {/* <br></br> Feel free to send me an email at 
               <a href="&#x6D;&#x61;&#x69;&#x6C;&#x74;&#x6F;&#x3A;&#x20;&#x61;&#x6C;&#x79;&#x73;&#x73;&#x61;&#x6C;&#x40;&#x61;&#x6E;&#x64;&#x72;&#x65;&#x77;&#x2E;&#x63;&#x6D;&#x75;&#x2E;&#x65;&#x64;&#x75;&#xA;">&#x20;&#x61;&#x6C;&#x79;&#x73;&#x73;&#x61;&#x6C;&#x40;&#x61;&#x6E;&#x64;&#x72;&#x65;&#x77;&#x2E;&#x63;&#x6D;&#x75;&#x2E;&#x65;&#x64;&#x75;&#xA;</a>
-              <br></br>
+              <br></br> */}
               You can view my resume <a href={pdf}>here</a>. 
               <br></br>
               {/* I'm a sophomore in the <a href="https://www.cmu.edu/interdisciplinary/programs/bcsa.html">Computer Science and Arts</a> program at Carnegie Mellon University. 

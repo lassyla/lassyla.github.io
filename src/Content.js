@@ -31,11 +31,13 @@ class App extends Component {
             </div>
             <Switch>
               <Route path={process.env.PUBLIC_URL + '/painter'} component={() => <Project link="painter"/>} />
+              <Route path={process.env.PUBLIC_URL + '/grown'} component={() => <Project link="grown"/>} />
               <Route path={process.env.PUBLIC_URL + '/graphics'} component={() => <Project link="graphics"/>} />
               <Route path={process.env.PUBLIC_URL + '/huevember'} component={() => <Project link="huevember"/>} />
               <Route path={process.env.PUBLIC_URL + '/genbook'} component={() => <Project link="genbook"/>} />
               <Route path={process.env.PUBLIC_URL + '/misc3d'} component={() => <Project link="misc3d"/>} />
               <Route path={process.env.PUBLIC_URL + '/methods'} component={() => <Project link="methods"/>} />
+              <Route path={process.env.PUBLIC_URL + '/game'} component={() => <Project link="game"/>} />
               <Route path={process.env.PUBLIC_URL + '/comic'} component={() => <Project link="comic"/>} />
               <Route path={process.env.PUBLIC_URL + '/mocap'} component={() => <Project link="mocap"/>} />
               <Route path={process.env.PUBLIC_URL + '/tidal'} component={() => <Project link="tidal"/>} />

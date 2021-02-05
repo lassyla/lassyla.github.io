@@ -7,8 +7,8 @@ class Gallery extends Component {
     super(props); 
     this.state = {
       categories: { "2d" : ["comic", "misc", "fanart", "stickers", "AP", "toonboom", "gif"],
-                    "3d" : ["sim", "pup", "realtime", "painter", "eggbot", "ink", "huevember", "mocap", "tidal", "blender", "shelves", "bot", "misc3d"],
-                    "code" : ["painter", "eggbot", "ink", "genbook", "mocap", "tidal", "karen", "processing", "shelves", "bot", "snowgum", "sort", "hackathon", "webdev"],
+                    "3d" : ["sim", "pup", "grown", "realtime", "painter", "eggbot", "ink", "huevember", "mocap", "tidal", "blender", "shelves", "bot", "misc3d"],
+                    "code" : ["painter","game", "eggbot", "ink", "genbook", "mocap", "tidal", "karen", "processing", "shelves", "bot", "snowgum", "sort", "hackathon", "webdev"],
                     "best": ["huevember", "tidal", "misc", "genbook", "mocap", "fanart"], 
                     "all" : ["huevember", "genbook", "comic", "mocap", "tidal", "misc", "fanart", "stickers", "blender", "processing", "shelves", "bot", "snowgum", "sort", "AP", "hackathon", "rpg", "toonboom", "webdev"],
                     "" : []
@@ -22,16 +22,18 @@ class Gallery extends Component {
         <div className="Gallery">
         
           <Box link="pup" filetype=".png"  desc="Pixar PUP" filter={this.state.categories[this.props.current]}/> 
-          <Box link="realtime" filetype=".png"  desc="Unity" filter={this.state.categories[this.props.current]}/> 
           <Box link="sim" filetype=".png"  desc="Simulations" filter={this.state.categories[this.props.current]}/> 
+          <Box link="game" filetype=".png" desc="Game Programming" filter={this.state.categories[this.props.current]}/> 
+          <Box link="realtime" filetype=".png"  desc="Unity" filter={this.state.categories[this.props.current]}/> 
           <Box link="graphics" filetype=".png"  desc="15-462 Computer Graphics" filter={this.state.categories[this.props.current]}/> 
+          <Box link="grown" filetype=".png" desc="'Grown' Short Film" filter={this.state.categories[this.props.current]}/> 
           <Box link="ink" filetype=".gif"  desc="Ink Game" filter={this.state.categories[this.props.current]}/> 
           <Box link="huevember" filetype=".png"  desc="Huevember" filter={this.state.categories[this.props.current]}/> 
           <Box link="eggbot" filetype=".png"  desc="Eggbot" filter={this.state.categories[this.props.current]}/> 
           <Box link="genbook" filetype=".png" desc="Generative Book" filter={this.state.categories[this.props.current]}/> 
           <Box link="mocap" filetype=".gif" desc="Motion Capture" filter={this.state.categories[this.props.current]}/> 
           <Box link="painter" filetype=".png" desc="Planet Painter" filter={this.state.categories[this.props.current]}/> 
-          <Box link="misc3d" filetype=".gif" desc="3D models" filter={this.state.categories[this.props.current]}/> 
+          <Box link="misc3d" filetype=".png" desc="3D illustration" filter={this.state.categories[this.props.current]}/> 
           <Box link="tidal" filetype=".png" desc="Tidal Clock" filter={this.state.categories[this.props.current]}/> 
           <Box link="misc" filetype=".png" desc="Original Art" filter={this.state.categories[this.props.current]}/> 
           <Box link="fanart" filetype=".png" desc="Fanart" filter={this.state.categories[this.props.current]}/> 
