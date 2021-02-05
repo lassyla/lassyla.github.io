@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "9ef30d74855a1a85666f7ac6f37abc0b",
-    "url": "/static/media/1.9ef30d74.png"
+    "revision": "f8ab0d32323f50f8afbcb9e0cd07d4f7",
+    "url": "/static/media/myself.f8ab0d32.png"
   },
   {
-    "revision": "bc7c7a3032f48a3846b6",
-    "url": "/static/css/main.360e5f62.chunk.css"
+    "revision": "ab0743cbe56f5dfc974d",
+    "url": "/static/css/main.b1165192.chunk.css"
   },
   {
-    "revision": "a677bb7d62c8759e7f8c",
-    "url": "/static/js/1.a677bb7d.chunk.js"
+    "revision": "b4dcd616403e8950c1e9",
+    "url": "/static/js/1.b4dcd616.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -324,8 +324,8 @@ self.__precacheManifest = [
     "url": "/static/media/fried_egg.0c944cb2.png"
   },
   {
-    "revision": "bc7c7a3032f48a3846b6",
-    "url": "/static/js/main.bc7c7a30.chunk.js"
+    "revision": "9ef30d74855a1a85666f7ac6f37abc0b",
+    "url": "/static/media/1.9ef30d74.png"
   },
   {
     "revision": "baa6e6aac873b80574a64d1b7efcd8e7",
@@ -348,12 +348,28 @@ self.__precacheManifest = [
     "url": "/static/media/praxinoscope.7d347fbe.gif"
   },
   {
+    "revision": "ab0743cbe56f5dfc974d",
+    "url": "/static/js/main.ab0743cb.chunk.js"
+  },
+  {
+    "revision": "c4dbbdf12ea6c5cf4be2e68f91827a65",
+    "url": "/static/media/meatball.c4dbbdf1.gif"
+  },
+  {
+    "revision": "30fb63e2bcc7ee763d77521f9c4c16bd",
+    "url": "/static/media/frogs.30fb63e2.png"
+  },
+  {
     "revision": "a37bf671c1f3394f05ca1a1e9c4611ce",
     "url": "/static/media/frog.a37bf671.gif"
   },
   {
-    "revision": "e079938b57ad74be25143e069efe7fa3",
-    "url": "/static/media/sloog.e079938b.png"
+    "revision": "9582ecd797fbaca2146f95390d182ef0",
+    "url": "/static/media/pandora.9582ecd7.png"
+  },
+  {
+    "revision": "43fd2b4e706752df676729a3cfef1fac",
+    "url": "/static/media/plant.43fd2b4e.png"
   },
   {
     "revision": "f9cf805cf96a9257f5e18fb6d8e0ba58",
@@ -368,12 +384,20 @@ self.__precacheManifest = [
     "url": "/static/media/teknos.3e544aa3.jpg"
   },
   {
-    "revision": "0c40ed253c97e5891f42e19a7e651e6c",
-    "url": "/static/media/anna.0c40ed25.gif"
+    "revision": "0d5cd78932b19e4199ed120e3c544a73",
+    "url": "/static/media/eyes.0d5cd789.gif"
   },
   {
-    "revision": "e6ebdf6238380d9e02236573f66f8949",
-    "url": "/static/media/ella.e6ebdf62.gif"
+    "revision": "6b543b9a2ea10a967f31db8d09b8e042",
+    "url": "/static/media/frogbrain.6b543b9a.png"
+  },
+  {
+    "revision": "6f040015ea72d406352200395cc2dd6d",
+    "url": "/static/media/shell.6f040015.png"
+  },
+  {
+    "revision": "e079938b57ad74be25143e069efe7fa3",
+    "url": "/static/media/sloog.e079938b.png"
   },
   {
     "revision": "f17efb1e833bfdb95a747fb9e06132eb",
@@ -472,8 +496,8 @@ self.__precacheManifest = [
     "url": "/static/media/sorry.7f545f98.gif"
   },
   {
-    "revision": "e34e80804cb4445448046fe8471bac03",
-    "url": "/static/media/Alyssa_Lee_Resume_2020_fx.e34e8080.pdf"
+    "revision": "ed234ca372dceeaa42fe2d6d4f2e9304",
+    "url": "/static/media/Alyssa_Lee_Resume_2021_fx.ed234ca3.pdf"
   },
   {
     "revision": "2d34a32820bb219487ba112111d6df1a",
@@ -514,6 +538,26 @@ self.__precacheManifest = [
   {
     "revision": "fb6eab66230b376ffdef1a24e3aceab5",
     "url": "/static/media/rsg.fb6eab66.png"
+  },
+  {
+    "revision": "2af17797eaea1626f51342f488ca3f50",
+    "url": "/static/media/enviro.2af17797.png"
+  },
+  {
+    "revision": "db6d918f9116d69ef9fff4017d6fe8a5",
+    "url": "/static/media/game4.db6d918f.png"
+  },
+  {
+    "revision": "6a05551faab1a8d9999c71350a7c3e7c",
+    "url": "/static/media/game3.6a05551f.png"
+  },
+  {
+    "revision": "4d43e6fc1a472419eebac69701ebfe51",
+    "url": "/static/media/game2.4d43e6fc.png"
+  },
+  {
+    "revision": "c0d896b38a16820df29c614d771c1cc4",
+    "url": "/static/media/game5.c0d896b3.png"
   },
   {
     "revision": "2218135c38c612eaf1acefc5466452ad",
@@ -576,6 +620,10 @@ self.__precacheManifest = [
     "url": "/static/media/graphics.42cbfaef.png"
   },
   {
+    "revision": "83fd8d71f63d39f5d6cac66ad4d2f93d",
+    "url": "/static/media/grown.83fd8d71.png"
+  },
+  {
     "revision": "2d3d04ace80e778d530efdd4613c74c7",
     "url": "/static/media/hackathon.2d3d04ac.png"
   },
@@ -600,8 +648,8 @@ self.__precacheManifest = [
     "url": "/static/media/misc.0fda8ebb.png"
   },
   {
-    "revision": "4fbe57966c5d3eb3f8447f43ae142931",
-    "url": "/static/media/misc3d.4fbe5796.gif"
+    "revision": "6b543b9a2ea10a967f31db8d09b8e042",
+    "url": "/static/media/misc3d.6b543b9a.png"
   },
   {
     "revision": "2d9c95f50885de1ffbbe1640001c44d1",
@@ -648,7 +696,7 @@ self.__precacheManifest = [
     "url": "/static/media/webdev.6fa24da1.png"
   },
   {
-    "revision": "8b5d11dae200eabd25713c0741bc3c88",
+    "revision": "2e2db3cab18a17d6b46565ea57dcc256",
     "url": "/index.html"
   }
 ];
