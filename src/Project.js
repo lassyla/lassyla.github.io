@@ -16,12 +16,12 @@ class Project extends Component {
             <h>Huevember</h>
             In November 2018, I challenged myself to learn Maya and use it in combination with Photoshop to create these colorful illustrations. 
             <br></br>
-            <ModalImage className="smallImg" small={require("./images/huevember/pink.png")} large={require("./images/huevember/pink.png")} hideDownload="true" hideZoom="true"/>
-            <ModalImage className="smallImg" small={require("./images/huevember/orange.png")} large={require("./images/huevember/orange.png")} hideDownload="true" hideZoom="true"/>
-            <ModalImage className="smallImg" small={require("./images/huevember/yellow.png")} large={require("./images/huevember/yellow.png")} hideDownload="true" hideZoom="true"/>
-            <ModalImage className="smallImg" small={require("./images/huevember/green.png")} large={require("./images/huevember/green.png")} hideDownload="true" hideZoom="true"/>
-            <ModalImage className="smallImg" small={require("./images/huevember/blue.png")} large={require("./images/huevember/blue.png")} hideDownload="true" hideZoom="true"/>
-            <ModalImage className="smallImg" small={require("./images/huevember/purple.png")} large={require("./images/huevember/purple.png")} hideDownload="true" hideZoom="true"/>            
+            <ModalImage className="medImg" small={require("./images/huevember/pink.png")} large={require("./images/huevember/pink.png")} hideDownload="true" hideZoom="true"/>
+            <ModalImage className="medImg" small={require("./images/huevember/orange.png")} large={require("./images/huevember/orange.png")} hideDownload="true" hideZoom="true"/>
+            <ModalImage className="medImg" small={require("./images/huevember/yellow.png")} large={require("./images/huevember/yellow.png")} hideDownload="true" hideZoom="true"/>
+            <ModalImage className="medImg" small={require("./images/huevember/green.png")} large={require("./images/huevember/green.png")} hideDownload="true" hideZoom="true"/>
+            <ModalImage className="medImg" small={require("./images/huevember/blue.png")} large={require("./images/huevember/blue.png")} hideDownload="true" hideZoom="true"/>
+            <ModalImage className="medImg" small={require("./images/huevember/purple.png")} large={require("./images/huevember/purple.png")} hideDownload="true" hideZoom="true"/>            
             <br></br> Also, I wrote a Python script to make eggs. I'm pretty happy with it.<br></br>
             <ModalImage className="medImg" small={require("./images/huevember/egg_gen.gif")} large={require("./images/huevember/egg_gen.gif")} hideDownload="true" hideZoom="true"/>            
             <br></br>Some progress shots: <br></br>
@@ -59,11 +59,11 @@ class Project extends Component {
       case "mocap": 
         return (
           <div className="Project">
-            <h>Motion Capture</h>
+            <h>Garbage People</h>
 
             <img className="medImg" src={require("./images/60212/randomloops.gif")}/>
             <br></br>
-            You can read about my process <a href="http://cmuems.com/2018/60212f/lass/10/12/lass-body/">here</a>, and play with the online version <a href="https://lassyla.me/People/">here</a>!
+            You can read about my process <a href="http://cmuems.com/2018/60212f/lass/10/12/lass-body/">here</a>, and play with the online version <a href="https://lassyla.github.io/People/">here</a>!
             <br></br>
             <br></br>
             This was a project for 60-212: Interactivity and Computation. The assignment was to use motion capture data in a creative way. I wrote an application using three.js that takes a string input as a random seed to create a "garbage character". The characters you see here were created with the usernames of my classmates. 
@@ -81,7 +81,7 @@ class Project extends Component {
 
             <img className="medImg" src={require("./images/60212/clock2.gif")} />
             <br></br>
-            You can view the clock <a href="https://lassyla.me/clocks/">here</a>, and read about my process <a href="http://cmuems.com/2018/60212f/lass/09/21/lass-clock/">here</a>!
+            You can view the clock <a href="https://lassyla.github.io/clocks/">here</a>, and read about my process <a href="http://cmuems.com/2018/60212f/lass/09/21/lass-clock/">here</a>!
             <br></br><br></br>This was a project for 60-212: Interactivity and Computation. It is a clock that completes a cycle every 745 minutes, which marks the difference between a high and low tide. The tidal pool gets revealed at low tide and covered at high tide. I originally set the clock to show the tide of Virginia Beach, though it might need calibration! 
             <br></br>I used Blender to create the beach shore, and three.js/GLSL to program the cycle of the clock, water movement, and sky color. 
             <br></br>
@@ -186,7 +186,7 @@ class Project extends Component {
         return (
           <div className="Project">
             <h>Shelves</h>
-            A project for Concept Studio. You can experience it <a href="https://lassyla.me/Shelves/index.html">here</a>. Learned three.js and blender!  <br></br>
+            A project for Concept Studio. You can experience it <a href="https://lassyla.github.io/Shelves/index.html">here</a>. Learned three.js and blender!  <br></br>
 
             <ModalImage small={require("./images/shelves/1.png")} large={require("./images/shelves/1.png")} hideDownload="true" hideZoom="true"/>
             <ModalImage small={require("./images/shelves/2.png")} large={require("./images/shelves/2.png")} hideDownload="true" hideZoom="true"/>
@@ -232,7 +232,7 @@ class Project extends Component {
           <div className="Project">
           <h>Selection Sort Game</h>
             <img src={require("./images/sorts/sort.gif")} /> <br></br>
-            A game I made using Unity that challenges you to do a selection sort! You can play <a href="https://lassyla.me/lassyla.github.io-old/sorts/index.html">here</a>. 
+            A game I made using Unity that challenges you to do a selection sort! You can play <a href="https://lassyla.github.io/lassyla.github.io-old/sorts/index.html">here</a>. 
             <br></br>
             <ModalImage small={require("./images/sorts/sprites.png")} large={require("./images/sorts/sprites.png")} hideDownload="true" hideZoom="true"/>
             <ModalImage small={require("./images/sorts/DUDE.png")} large={require("./images/sorts/DUDE.png")} hideDownload="true" hideZoom="true"/>
@@ -248,7 +248,7 @@ class Project extends Component {
           Here are some of my hackathon projects, completed with a team in 24 hours or less. 
           <br></br><br></br>
           <img className="medImg" src={require("./images/hackathons/codejest.png")} />
-          <br></br><a href="https://lassyla.me/CodeJest/index.html">Code Jest</a>: 
+          <br></br><a href="https://lassyla.github.io/CodeJest/index.html">Code Jest</a>: 
           The winner of HackED in 2017, with Lisa Lo and Lauren Zhang. It is a game in the style of a text adventure, with a code-teaching twist. I programmed the front end interface and did the illustrations. 
           <br></br><br></br><br></br>
           <img className="medImg" src={require("./images/hackathons/snowgum.png")} />
@@ -262,7 +262,7 @@ class Project extends Component {
           <br></br><br></br><br></br>
 
           <img className="medImg" src={require("./images/hackathons/rsg.png")}/>
-          <br></br><a href="https://lassyla.me/RandomSentences/">RSG+d</a>:
+          <br></br><a href="https://lassyla.github.io/RandomSentences/">RSG+d</a>:
           My very first hackathon, Pilot Philly 2014, with Chris Niu and Andrew Wang. It is a simple web app that generates random sentences along with an illustration. I was responsible for all of the drawings. 
           
           </div>
@@ -344,7 +344,7 @@ class Project extends Component {
         return (
           <div className="Project">
             <h>Old Website</h>
-            In late 2017, I created a personal website. <br></br>In 2018, I learned React and decided to completely redo my site with a new design (you're looking at it now!). <br></br><a href="http://lassyla.me/lassyla.github.io-old/">You can view the old one here.</a>
+            In late 2017, I created a personal website. <br></br>In 2018, I learned React and decided to completely redo my site with a new design (you're looking at it now!). <br></br><a href="http://lassyla.github.io/lassyla.github.io-old/">You can view the old one here.</a>
           </div>
         );
         
@@ -353,7 +353,7 @@ class Project extends Component {
           <div className="Project">
             <h>Planet Painter</h>
             <img className="medImg" src={require("./images/painter/flowers.gif")}></img> 
-            <br></br>You can play with it <a href="https://lassyla.me/TravelCube/shader3.html">here</a>!
+            <br></br>You can play with it <a href="https://lassyla.github.io/TravelCube/shader3.html">here</a>!
             <br></br><br></br>
             A personal project I am working on, where you paint flowers on a planet with your mouse! It is currently a work in progress. I want to add functionality that lets the user choose the colors, and possibly paint other surfaces (trees, water, rocks, etc.). 
             <br></br>I am using three.js and GLSL to create this project. The flowers are all made procedurally from polar equations. Ever since I learned about rose curves in high school, I've wanted to create an art project with them! <br></br>
@@ -399,13 +399,65 @@ class Project extends Component {
         </div>
       );
 
-      
+      case "blendertools": 
+      return (
+        <div className="Project">
+          <h>blender tools</h>
+          <br></br>
+            As I make more illustrations in blender, I like to collect tools and setups that I can reuse across projects. These are all made with geometry nodes and shaders. 
+            <br></br>Quilt generator
+            <br></br>Lines following a curve (with held frames)
+            <br></br>Procedural houses
+            <br></br>Fish following curve
+
+          <br></br>
+        </div>
+      );
+      case "bugs": 
+      return (
+        <div className="Project">
+          <h>procedural bugs</h>
+          <br></br>
+            I made a procedural system in geometry nodes to generate a lot of random bugs, and then made an animation to the music "bug party" by spellcasting. 
+            <br></br>
+            After that, I procedurally animated these caterpillars, also in geometry nodes. The sine wave shape and movement of the bugs makes them a good candidate for procedural animation. 
+          <br></br>
+        </div>
+      );
+      case "zoetrope": 
+      return (
+        <div className="Project">
+          <h>zoetrope</h>
+          <br></br>
+            I like seeing birds walk fast at the beach, so I made this animation of a bird walking fast on the beach. 
+            <br></br>
+            The looping water animation was accomplished with a shader. 
+            <br></br>
+            The bird animation was done by using geometry nodes to place a simple bird model around the circle, adding legs and position offset.
+            <br></br>
+          <br></br>
+        </div>
+      );
+      case "20sec": 
+      return (
+        <div className="Project">
+          <h>Fright Lights</h>
+          <br></br>
+            I made this project with my pals Asha Farmer and Aksel Taylan for the 20 Second Game Jam. 
+            You can play it on <a href="https://akseltaylan.itch.io/fright-lights">itch</a>.  
+          <br></br> 
+          <br></br> Here are some process images: 
+
+          <br></br>
+        </div>
+      );
       case "pup": 
       return (
         <div className="Project">
           <h>Pixar Undergraduate Program</h>
+
           <br></br>
-          Last summer (2019) I was a PUP (Pixar Undergraduate Program) Intern! During the internship, I learned about the Pixar animation pipeline and Technical Director roles. Every week we learned something new, including modeling, shading, lighting, rigging, set dressing, layout, and effects. At the end of the internship I had two weeks to create a short film with eight other interns.     
+          In 2019 I was a PUP (Pixar Undergraduate Program) Intern! During the internship, I learned about the Pixar animation pipeline and Technical Director roles. Every week we learned something new, including modeling, shading, lighting, rigging, set dressing, layout, and effects. At the end of the internship I had two weeks to create a short film with eight other interns.     
           <br></br>          
           <iframe className="youtube" src="https://player.vimeo.com/video/384386041" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <br></br>          
@@ -446,7 +498,7 @@ class Project extends Component {
         <div className="Project">
           <h>Real Time Animation in Unity</h>
           <br></br>
-          In Fall 2019 I took CMU's Real Time Animation class with Nick Crockett. We used Unity to create animations and interactive experiences. The project files are available at <a href="https://lassyla.itch.io/">lassyla.itch.io</a>.      
+          In Fall 2019 I took CMU's Real Time Animation class with Nick Crockett. We used Unity to create animations and interactive experiences.       
           <br></br>          
           <div className="col">
             <ModalImage  small={require("./images/realtime/pinata.png")} large={require("./images/realtime/pinata.png")} hideDownload="true" hideZoom="true"/>
@@ -480,16 +532,20 @@ class Project extends Component {
           <br></br>
           Some short studies made in Houdini/Maya/Blender!
           <br></br>          This work was supported in part by funding from the Carnegie Mellon University Frank-Ratchye Fund For Art @ the Frontier. <br></br>
-          <div className="Gallery">
-          <ModalImage className="smallImg" small={require("./images/sim/jely.gif")} large={require("./images/sim/jely.gif")} hideDownload="true" hideZoom="true"/>
-          <ModalImage className="smallImg" small={require("./images/sim/blueberry.gif")} large={require("./images/sim/blueberry.gif")} hideDownload="true" hideZoom="true"/>
-          <ModalImage className="smallImg" small={require("./images/sim/ging.gif")} large={require("./images/sim/ging.gif")} hideDownload="true" hideZoom="true"/>
-          <ModalImage className="smallImg" small={require("./images/sim/hill.gif")} large={require("./images/sim/hill.gif")} hideDownload="true" hideZoom="true"/>
-          <ModalImage className="smallImg" small={require("./images/sim/sapagety.gif")} large={require("./images/sim/sapagety.gif")} hideDownload="true" hideZoom="true"/>
-          <ModalImage className="smallImg" small={require("./images/sim/cream.gif")} large={require("./images/sim/cream.gif")} hideDownload="true" hideZoom="true"/>
-          <ModalImage className="smallImg" small={require("./images/sim/cake.gif")} large={require("./images/sim/cake.gif")} hideDownload="true" hideZoom="true"/>
-          <ModalImage className="smallImg" small={require("./images/sim/peepgifsquare.gif")} large={require("./images/sim/peepgifsquare.gif")} hideDownload="true" hideZoom="true"/>
-          <ModalImage className="smallImg" small={require("./images/sim/sorry.gif")} large={require("./images/sim/sorry.gif")} hideDownload="true" hideZoom="true"/>
+          <div className="col">
+            <ModalImage className="smallImg" small={require("./images/sim/jely.gif")} large={require("./images/sim/jely.gif")} hideDownload="true" hideZoom="true"/>
+            <ModalImage className="smallImg" small={require("./images/sim/blueberry.gif")} large={require("./images/sim/blueberry.gif")} hideDownload="true" hideZoom="true"/>
+            <ModalImage className="smallImg" small={require("./images/sim/ging.gif")} large={require("./images/sim/ging.gif")} hideDownload="true" hideZoom="true"/>
+           </div>
+          <div className="col">
+            <ModalImage className="smallImg" small={require("./images/sim/hill.gif")} large={require("./images/sim/hill.gif")} hideDownload="true" hideZoom="true"/>
+            <ModalImage className="smallImg" small={require("./images/sim/sapagety.gif")} large={require("./images/sim/sapagety.gif")} hideDownload="true" hideZoom="true"/>
+            <ModalImage className="smallImg" small={require("./images/sim/cream.gif")} large={require("./images/sim/cream.gif")} hideDownload="true" hideZoom="true"/>
+           </div>
+          <div className="col">
+            <ModalImage className="smallImg" small={require("./images/sim/cake.gif")} large={require("./images/sim/cake.gif")} hideDownload="true" hideZoom="true"/>
+            <ModalImage className="smallImg" small={require("./images/sim/peepgifsquare.gif")} large={require("./images/sim/peepgifsquare.gif")} hideDownload="true" hideZoom="true"/>
+            <ModalImage className="smallImg" small={require("./images/sim/sorry.gif")} large={require("./images/sim/sorry.gif")} hideDownload="true" hideZoom="true"/>
 
         </div>
         </div>
@@ -525,7 +581,7 @@ class Project extends Component {
             <img className="smallImg" src={require("./images/ink/demo1.gif")}></img> 
             <br></br>
             C# (Unity)<br></br> <br></br> 
-            This script was used to generate the floor texture in my <a href="https://lassyla.me/#/ink">Ink</a> drawing software. It creates trailing lines behind the player, and flood fills when they jump and land. 
+            This script was used to generate the floor texture in my <a href="https://lassyla.github.io/#/ink">Ink</a> drawing software. It creates trailing lines behind the player, and flood fills when they jump and land. 
           </div>
 
           <br></br>
@@ -536,7 +592,7 @@ class Project extends Component {
             <img className="smallImg" src={require("./images/painter/flowers2.gif")}></img> 
             <br></br>
             three.js and GLSL <br></br> <br></br> 
-            An interactive sketch where the user can<a href="https://lassyla.me/#/painter"> paint flowers onto a planet. </a>The flowers that bloom are shaped from polar equations. 
+            An interactive sketch where the user can<a href="https://lassyla.github.io/#/painter"> paint flowers onto a planet. </a>The flowers that bloom are shaped from polar equations. 
           </div>
           <ReactEmbedGist gist="lassyla/3fe869046127d8a3b0d721c84b81fe87" 
             wrapperClass="code"
@@ -555,7 +611,7 @@ class Project extends Component {
             <img style={{width: "400px"}} src={require("./images/huevember/egg_gen.gif")}></img> 
             <br></br>
             Python (Maya) <br></br> <br></br> 
-            A short script that creates a bunch of random eggs. It was used in my <a href="https://lassyla.me/#/huevember">Huevember</a> project, and was a precursor to my recent <a href="https://lassyla.me/#/eggbot">Twitter bot.</a>
+            A short script that creates a bunch of random eggs. It was used in my <a href="https://lassyla.github.io/#/huevember">Huevember</a> project, and was a precursor to my recent <a href="https://lassyla.github.io/#/eggbot">Twitter bot.</a>
           </div>
 
           <br></br>
@@ -568,40 +624,49 @@ class Project extends Component {
           <div className="Project"><br></br> 
           <div id="frontpage">
           <iframe className="youtube" src="https://player.vimeo.com/video/508979693" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <br></br><ModalImage className="smallImg" small={require("./images/painter/flowers2.gif")} large={require("./images/painter/flowers2.gif")} hideDownload="true" hideZoom="true"/>
-            <ModalImage className="medImg" small={require("./images/3d/anna2.png")} large={require("./images/3d/anna2.png")} hideDownload="true" hideZoom="true"/> 
-            <ModalImage className="medImg" small={require("./images/3d/bun.png")} large={require("./images/3d/bun.png")} hideDownload="true" hideZoom="true"/>
-            <ModalImage className="smallImg" small={require("./images/huevember/orange.png")} large={require("./images/huevember/orange.png")} hideDownload="true" hideZoom="true"/>
-            <ModalImage className="smallImg" small={require("./images/huevember/green.png")} large={require("./images/huevember/green.png")} hideDownload="true" hideZoom="true"/>
-            <ModalImage className="smallImg" small={require("./images/60212/shortwalk.gif")} large={require("./images/60212/shortwalk.gif")} hideDownload="true" hideZoom="true"/>
-            <ModalImage className="smallImg" small={require("./images/60212/clock2.gif")} large={require("./images/60212/clock2.gif")} hideDownload="true" hideZoom="true"/>
-            </div>
+          </div>
           </div>
         );
-
+      case "film": 
+        return (
+          <div className="Project" style={{width:"80%", marginLeft:"10%"}}>
+            <h>Film</h>
+            I have been creating FX at Pixar since 2021. My film credits include Hoppers, Elio, Inside Out 2, Elemental, Lightyear, and Turning Red. 
+            <br></br>
+            You can read more about my work on the Inside Out 2 Belief System <a href="https://renderman.pixar.com/stories/making-the-belief-system">here</a>. 
+            <br></br>
+          </div>
+        );
+      // case "art": 
+      //   return (
+      //     <div className="Project" style={{width:"80%", marginLeft:"10%"}}>
+      //       <h>Art</h>
+      //       blah blah
+      //     </div>
+      //   );
       case "about": 
         return (
           <div className="Project" style={{width:"80%", marginLeft:"10%"}}>
             <img src={require("./images/stickers/egg5.png")}style={{width:"150px", display:"inline"}}></img>
               <h>About Me</h>
-              Hi! I'm Alyssa Lee. I love to write code and make art.
-              <br></br> I am a Senior studying Computer Science and Art at Carnegie Mellon University, with a minor in Animation and Special Effects. I am interested in animation, interactive art, and computer graphics. 
-              <br></br> Last summer I was an intern at Pixar where I learned about the animation pipeline and the role of a Technical Director. 
+              Hi! I’m Alyssa. 
+              <br></br><br></br>I like to make art and animation and games. 
+              <br></br><br></br>I am currently a Senior FX Technical Director at Pixar. 
+              <br></br><br></br>I graduated from Carnegie Mellon University BCSA in 2021. 
               {/* <br></br> Feel free to send me an email at 
               <a href="&#x6D;&#x61;&#x69;&#x6C;&#x74;&#x6F;&#x3A;&#x20;&#x61;&#x6C;&#x79;&#x73;&#x73;&#x61;&#x6C;&#x40;&#x61;&#x6E;&#x64;&#x72;&#x65;&#x77;&#x2E;&#x63;&#x6D;&#x75;&#x2E;&#x65;&#x64;&#x75;&#xA;">&#x20;&#x61;&#x6C;&#x79;&#x73;&#x73;&#x61;&#x6C;&#x40;&#x61;&#x6E;&#x64;&#x72;&#x65;&#x77;&#x2E;&#x63;&#x6D;&#x75;&#x2E;&#x65;&#x64;&#x75;&#xA;</a>
               <br></br> */}
-              You can view my resume <a href={pdf}>here</a>. 
-              <br></br>
+              <br></br><br></br>You can view my resume <a href={pdf}>here</a>. 
               {/* I'm a sophomore in the <a href="https://www.cmu.edu/interdisciplinary/programs/bcsa.html">Computer Science and Arts</a> program at Carnegie Mellon University. 
               <br></br> <br></br>
               In my free time, I like to learn new things! Currently, I am teaching myself 3D modeling, scripting, and animation. 
               <br></br> <br></br>
               I also love community service! I am a proud member of <a href="https://apo.org/">Alpha Phi Omega</a>, the national service fraternity. 
               <br></br> */}
-              <br></br><a href="&#x6D;&#x61;&#x69;&#x6C;&#x74;&#x6F;&#x3A;&#x20;&#x61;&#x6C;&#x79;&#x73;&#x73;&#x61;&#x6C;&#x40;&#x61;&#x6E;&#x64;&#x72;&#x65;&#x77;&#x2E;&#x63;&#x6D;&#x75;&#x2E;&#x65;&#x64;&#x75;&#xA;">&#x20;&#x61;&#x6C;&#x79;&#x73;&#x73;&#x61;&#x6C;&#x40;&#x61;&#x6E;&#x64;&#x72;&#x65;&#x77;&#x2E;&#x63;&#x6D;&#x75;&#x2E;&#x65;&#x64;&#x75;&#xA;</a>
-              <br></br><a href="https://twitter.com/lassylaa">twitter @lassylaa</a>
-              <br></br><a href="https://github.com/lassyla">github @lassyla</a>
-              <br></br><a href="https://www.instagram.com/lassylaa/">instagram @lassylaa</a>
+              {/* <br></br><a href="&#x6D;&#x61;&#x69;&#x6C;&#x74;&#x6F;&#x3A;&#x20;&#x61;&#x6C;&#x79;&#x73;&#x73;&#x61;&#x6C;&#x40;&#x61;&#x6E;&#x64;&#x72;&#x65;&#x77;&#x2E;&#x63;&#x6D;&#x75;&#x2E;&#x65;&#x64;&#x75;&#xA;">&#x20;&#x61;&#x6C;&#x79;&#x73;&#x73;&#x61;&#x6C;&#x40;&#x61;&#x6E;&#x64;&#x72;&#x65;&#x77;&#x2E;&#x63;&#x6D;&#x75;&#x2E;&#x65;&#x64;&#x75;&#xA;</a> */}
+              {/* <br></br><a href="https://twitter.com/lassylaa">twitter @lassylaa</a> */}
+              {/* <br></br><a href="https://github.com/lassyla">github @lassyla</a> */}
+              <br></br><br></br><a href="https://www.instagram.com/lassylaa/">instagram @lassylaa</a>
 
               
           </div>

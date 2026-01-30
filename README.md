@@ -1,1 +1,1 @@
-it's my (new) personal site! https://lassyla.me/
+ personal site! https://lassyla.me/
