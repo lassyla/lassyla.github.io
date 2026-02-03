@@ -25,7 +25,7 @@ class App extends Component {
                 {/* <Link className={"button " + (this.state.current === "3d" ? "active" : "")} to="/3d" onClick={() => this.setState({current: "3d"})}>3D </Link>
                 <Link className={"button " + (this.state.current === "2d" ? "active" : "")} to="/2d" onClick={() => this.setState({current: "2d"})}>2D </Link>
                 <Link className={"button " + (this.state.current === "code" ? "active" : "")} to="/code" onClick={() => this.setState({current: "code"})}>code </Link> */}
-                <Link className={"button " + (this.state.current === "film" ? "active" : "")} to="/film" onClick={() => this.setState({current: "film"})}>film</Link>
+                {/* <Link className={"button " + (this.state.current === "film" ? "active" : "")} to="/film" onClick={() => this.setState({current: "film"})}>film</Link> */}
                 <Link className={"button " + (this.state.current === "projects" ? "active" : "")} to="/projects" onClick={() => this.setState({current: "projects"})}>projects</Link>
                 {/* <Link className={"button " + (this.state.current === "art" ? "active" : "")} to="/art" onClick={() => this.setState({current: "art"})}>art</Link> */}
                 <Link className={"button " + (this.state.current === "about" ? "active" : "")} to="/about" onClick={() => this.setState({current: "about"})}>about</Link> 
@@ -68,13 +68,14 @@ class App extends Component {
               <Route path={process.env.PUBLIC_URL + '/pup'} component={() => <Project link="pup"/>} />
               <Route path={process.env.PUBLIC_URL + '/sim'} component={() => <Project link="sim"/>} />
               <Route path={process.env.PUBLIC_URL + '/realtime'} component={() => <Project link="realtime"/>} />
+              <Route path={process.env.PUBLIC_URL + '/fruit'} component={() => <Project link="fruit"/>} />
               <Route path={process.env.PUBLIC_URL + '/film'} component={() => <Project link="film"/>} />
               <Route path={process.env.PUBLIC_URL + '/art'} component={() => <Project link="art"/>} />
               <Route path={process.env.PUBLIC_URL + '/20sec'} component={() => <Project link="20sec"/>} />
               <Route path={process.env.PUBLIC_URL + '/bugs'} component={() => <Project link="bugs"/>} />
               <Route path={process.env.PUBLIC_URL + '/code'} component={() => <Gallery current="code"/>} />
               <Route path={process.env.PUBLIC_URL + '/zoetrope'} component={() => <Project link="zoetrope"/>} />
-              <Route path={process.env.PUBLIC_URL + '/'} component={() => <Project link="home"/>} />
+              <Route path={process.env.PUBLIC_URL + '/'} component={() =><Project link="home"/>} />
 
             </Switch>
         </div>

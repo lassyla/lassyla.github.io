@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import ModalImage from 'react-modal-image'
-import pdf from './Alyssa_Lee_Resume_2021_fx.pdf';
 import ReactEmbedGist from 'react-embed-gist';
 
 
@@ -404,34 +403,63 @@ class Project extends Component {
         <div className="Project">
           <h>blender tools</h>
           <br></br>
-            As I make more illustrations in blender, I like to collect tools and setups that I can reuse across projects. These are all made with geometry nodes and shaders. 
-            <br></br>Quilt generator
-            <br></br>Lines following a curve (with held frames)
-            <br></br>Procedural houses
-            <br></br>Fish following curve
+            As I make illustrations in blender, I like to collect tools and setups that I can reuse across projects. These are all made with geometry nodes and shaders. 
+            <br></br><br></br>Quilt generator
+            <br></br><img className="medImg" src={require("./images/blender/quilt.gif")}></img> 
+            <br></br><br></br>Lines following a curve
+            <br></br><img className="medImg" src={require("./images/blender/demo2.gif")}></img> <img className="smallImg" src={require("./images/blender/blobgsfifgif3.gif")}></img> 
+            <br></br><br></br>Procedural houses
+            <br></br><img className="medImg" src={require("./images/blender/houses.gif")}></img> 
+            <br></br><br></br>Fish following curve
+            <br></br><img className="medImg" src={require("./images/blender/fish2.gif")}></img> 
+            <img className="smallImg" src={require("./images/blender/fish.gif")}></img> 
+            
+            <br></br>check out my <a href="https://www.instagram.com/lassylaa/">instagram</a> to see current blender works
+          <br></br>
+        </div>
+      );
+      case "fruit": 
+      return (
+        <div className="Project">
+          <h>Fruit Fight</h>
+          <br></br> A 2-player minigame made for the <a href='https://www.gamecreation.org/games/game_bytes_2020'>CMU GCS Game Bytes </a>
+          <br></br> You use your long tongue to grab fruit, and your opponent. 
+            <br></br><img className="medImg" src={require("./images/fruit/gamebytes.gif")}></img> 
+            <br></br><img className="smallImg" src={require("./images/fruit/test3.gif")}></img> 
+            <img className="smallImg" src={require("./images/fruit/test4.gif")}></img> 
+            <br></br> made in blender and unity
 
           <br></br>
         </div>
       );
+
       case "bugs": 
       return (
         <div className="Project">
           <h>procedural bugs</h>
           <br></br>
             I made a procedural system in geometry nodes to generate a lot of random bugs, and then made an animation to the music "bug party" by spellcasting. 
+            <br></br><iframe width="560" height="315" src="https://www.youtube.com/embed/LuXJMxDCu7g?si=7_nSZ3vfqrYX7Ul1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <br></br>
-            After that, I procedurally animated these caterpillars, also in geometry nodes. The sine wave shape and movement of the bugs makes them a good candidate for procedural animation. 
+            I procedurally animated these caterpillars in geo nodes too. The sine wave shape and movement of the bugs makes them a good candidate for procedural animation. 
+          <br></br><img className="smallImg" src={require("./images/bugs/bts1.gif")}></img>
           <br></br>
+          Also there are worms. I got the worm movement by stretching a curve in various directions based on a sine wave. Plus I gave him a strawberry hat 
+          <br></br> <img className="smallImg" src={require("./images/bugs/bts2.gif")}></img>
+<img className="smallImg" src={require("./images/bugs/bts6.gif")}></img> <img className="smallImg" src={require("./images/bugs/bts3.gif")}></img>
         </div>
       );
       case "zoetrope": 
       return (
         <div className="Project">
           <h>zoetrope</h>
-          <br></br>
+
+           <br></br> <img className="medImg" src={require("./images/zoetrope/seabird.gif")}></img> <br></br>
             I like seeing birds walk fast at the beach, so I made this animation of a bird walking fast on the beach. 
             <br></br>
             The looping water animation was accomplished with a shader. 
+            <br></br>
+             <br></br> <img className="smallImg" src={require("./images/zoetrope/topdown.gif")}></img> <img className="smallImg" src={require("./images/zoetrope/textures.gif")}></img>
             <br></br>
             The bird animation was done by using geometry nodes to place a simple bird model around the circle, adding legs and position offset.
             <br></br>
@@ -443,10 +471,14 @@ class Project extends Component {
         <div className="Project">
           <h>Fright Lights</h>
           <br></br>
+           <img className="medImg" src={require("./images/20sec/a.png")}></img>
+           <br></br>
             I made this project with my pals Asha Farmer and Aksel Taylan for the 20 Second Game Jam. 
-            You can play it on <a href="https://akseltaylan.itch.io/fright-lights">itch</a>.  
+            You can play it and read more on <a href="https://akseltaylan.itch.io/fright-lights">itch</a>.  
           <br></br> 
           <br></br> Here are some process images: 
+             <br></br> <img className="medImg" src={require("./images/20sec/concept_gif.gif")}></img> <img className="medImg" src={require("./images/20sec/shadertest1.gif")}></img>
+              <img className="medImg" src={require("./images/20sec/sunrise1.gif")}></img>
 
           <br></br>
         </div>
@@ -623,7 +655,7 @@ class Project extends Component {
         return (
           <div className="Project"><br></br> 
           <div id="frontpage">
-          <iframe className="youtube" src="https://player.vimeo.com/video/508979693" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe className="youtube" src="https://www.youtube.com/embed/_mEWSepCfIg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           </div>
         );
@@ -631,10 +663,13 @@ class Project extends Component {
         return (
           <div className="Project" style={{width:"80%", marginLeft:"10%"}}>
             <h>Film</h>
-            I have been creating FX at Pixar since 2021. My film credits include Hoppers, Elio, Inside Out 2, Elemental, Lightyear, and Turning Red. 
-            <br></br>
-            You can read more about my work on the Inside Out 2 Belief System <a href="https://renderman.pixar.com/stories/making-the-belief-system">here</a>. 
-            <br></br>
+            I am currently a Senior FX Technical Director at Pixar. My film credits include Hoppers, Elio, Inside Out 2, Elemental, Lightyear, and Turning Red. 
+             <br></br><br></br> Nominee for 2025 HPA Awards Outstanding Visual Effects – Animated Feature (Inside Out 2)
+            <br></br> Nominee for Annie Awards Best FX - Feature (Elio)
+             <br></br> <br></br>You can read more about my work on the Inside Out 2 Belief System <a href="https://renderman.pixar.com/stories/making-the-belief-system">here</a>. 
+            <br></br><br></br>
+          <iframe className="youtube" src="https://www.youtube.com/embed/aXYSzzyKQgc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
           </div>
         );
       // case "art": 
@@ -651,12 +686,12 @@ class Project extends Component {
               <h>About Me</h>
               Hi! I’m Alyssa. 
               <br></br><br></br>I like to make art and animation and games. 
+              <br></br><br></br>I'm making an effort to document the stuff I make
               <br></br><br></br>I am currently a Senior FX Technical Director at Pixar. 
               <br></br><br></br>I graduated from Carnegie Mellon University BCSA in 2021. 
               {/* <br></br> Feel free to send me an email at 
               <a href="&#x6D;&#x61;&#x69;&#x6C;&#x74;&#x6F;&#x3A;&#x20;&#x61;&#x6C;&#x79;&#x73;&#x73;&#x61;&#x6C;&#x40;&#x61;&#x6E;&#x64;&#x72;&#x65;&#x77;&#x2E;&#x63;&#x6D;&#x75;&#x2E;&#x65;&#x64;&#x75;&#xA;">&#x20;&#x61;&#x6C;&#x79;&#x73;&#x73;&#x61;&#x6C;&#x40;&#x61;&#x6E;&#x64;&#x72;&#x65;&#x77;&#x2E;&#x63;&#x6D;&#x75;&#x2E;&#x65;&#x64;&#x75;&#xA;</a>
               <br></br> */}
-              <br></br><br></br>You can view my resume <a href={pdf}>here</a>. 
               {/* I'm a sophomore in the <a href="https://www.cmu.edu/interdisciplinary/programs/bcsa.html">Computer Science and Arts</a> program at Carnegie Mellon University. 
               <br></br> <br></br>
               In my free time, I like to learn new things! Currently, I am teaching myself 3D modeling, scripting, and animation. 
